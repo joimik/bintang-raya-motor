@@ -1,0 +1,57 @@
+name: Daily OLX Sync
+
+on:
+  # 23:00 UTC = 06:00 WIB (Bandung time) every day
+  schedule:
+    - cron: "0 23 * * *"
+  # Allow manual runs from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: olx-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install chromium --with-deps
+
+      - name: Run OLX sync
+        env:
+          CI: "true"
+        run: node scripts/olx-sync.mjs
+
+      - name: Verify build still passes
+        run: npm run build
+
+      - name: Commit and push if there are changes
+        run: |
+          git config user.name "olx-sync-bot"
+          git config user.email "olx-sync-bot@users.noreply.github.com"
+          git add src/data/cars.js public/images
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            COUNT=$(grep -c '"olx-' src/data/cars.js || true)
+            git commit -m "chore: daily OLX sync ($(date -u +%Y-%m-%d))"
+            git push
+          fi

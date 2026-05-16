@@ -1,0 +1,127 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--white);
+  box-shadow: var(--shadow-sm);
+  z-index: 1000;
+  transition: var(--transition);
+  height: 70px;
+}
+
+.header.scrolled {
+  box-shadow: var(--shadow-md);
+  height: 65px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-title {
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: var(--primary-color);
+  line-height: 1;
+}
+
+.logo-img {
+  height: 48px;
+  width: auto;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-links a:not(.nav-cta) {
+  font-weight: 600;
+  color: var(--text-muted);
+  position: relative;
+  transition: var(--transition);
+}
+
+.nav-links a:not(.nav-cta):hover, 
+.nav-links a:not(.nav-cta).active {
+  color: var(--primary-color);
+}
+
+.nav-links a:not(.nav-cta)::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--accent-color);
+  transition: var(--transition);
+}
+
+.nav-links a:not(.nav-cta):hover::after,
+.nav-links a:not(.nav-cta).active::after {
+  width: 100%;
+}
+
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: var(--white);
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: var(--shadow-md);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-links.open {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    opacity: 1;
+  }
+
+  .header.scrolled .nav-links {
+    top: 65px;
+  }
+
+  .nav-cta {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
