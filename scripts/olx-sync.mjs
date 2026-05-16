@@ -91,13 +91,11 @@ function normalize(item) {
 
 async function scrape() {
   console.log("[1/5] Launching Chrome...");
-  // Local Windows fails HTTP/2 negotiation with bundled Chromium for some
-  // reason — use the installed Chrome. CI runners (Linux) don't have Chrome
-  // installed but Playwright's bundled chromium works fine there.
-  const useSystemChrome = !process.env.CI;
+  // Bundled Chromium fails HTTP/2 negotiation against OLX (both Windows and
+  // Linux). Real Chrome works. CI installs it via `npx playwright install chrome`.
   const browser = await chromium.launch({
     headless: true,
-    ...(useSystemChrome ? { channel: "chrome" } : {}),
+    channel: "chrome",
     args: ["--disable-blink-features=AutomationControlled", "--no-sandbox"],
   });
   const ctx = await browser.newContext({
