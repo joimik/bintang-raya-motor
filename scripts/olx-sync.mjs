@@ -12,10 +12,11 @@ import { chromium } from "playwright";
 import { writeFile, readFile, mkdir, rm, access } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 const USER_ID = "60978918";
 const PAGE_SIZE = 50;
-const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname.replace(/^\//, "")), "..");
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const IMG_DIR = path.join(ROOT, "public", "images");
 const CARS_FILE = path.join(ROOT, "src", "data", "cars.js");
 
