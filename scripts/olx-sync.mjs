@@ -12,7 +12,8 @@ import { chromium } from "playwright";
 import { writeFile, readFile, mkdir, rm, access } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
+import * as notify from "./telegram-notify.mjs";
 
 const USER_ID = "60978918";
 const PAGE_SIZE = 50;
@@ -182,6 +183,7 @@ async function downloadImages(cars) {
       idx++;
     }
     car.image = car.images[0] || null;
+    car._remoteThumb = car.rawImages?.[0] || null; // for Telegram preview
     delete car.rawImages;
   }
   console.log(`  downloaded ${downloaded}, skipped ${skipped} (already on disk), failed ${failed}`);
@@ -189,23 +191,25 @@ async function downloadImages(cars) {
 
 // ─── 3. diff against existing cars.js ──────────────────────────────────────
 
-async function readExistingOlxIds() {
-  if (!existsSync(CARS_FILE)) return new Set();
-  const src = await readFile(CARS_FILE, "utf8");
-  const ids = new Set();
-  // Existing cars.js doesn't have olxId yet. After first sync, every car
-  // will have an olxId line we can parse.
-  const re = /olxId:\s*["'](\d+)["']/g;
-  let m;
-  while ((m = re.exec(src))) ids.add(m[1]);
-  return ids;
+// Load the previous cars.js as a module so we can read full car objects for
+// "removed" notifications (otherwise we'd only know the OLX ID of a sold car).
+async function readPrevCars() {
+  if (!existsSync(CARS_FILE)) return [];
+  try {
+    const mod = await import(pathToFileURL(CARS_FILE).href + `?t=${Date.now()}`);
+    return Array.isArray(mod.cars) ? mod.cars : [];
+  } catch (e) {
+    console.log(`  could not parse previous cars.js (${e.message}) — treating as empty`);
+    return [];
+  }
 }
 
-function diffSummary(cars, prevIds) {
-  const newIds = new Set(cars.map((c) => c.olxId));
-  const added = cars.filter((c) => !prevIds.has(c.olxId)).map((c) => c.olxId);
-  const removed = [...prevIds].filter((id) => !newIds.has(id));
-  return { added, removed, total: cars.length };
+function diffSummary(cars, prevCars) {
+  const prevById = new Map(prevCars.filter((c) => c.olxId).map((c) => [String(c.olxId), c]));
+  const newIds = new Set(cars.map((c) => String(c.olxId)));
+  const added = cars.filter((c) => !prevById.has(String(c.olxId)));
+  const removed = prevCars.filter((c) => c.olxId && !newIds.has(String(c.olxId)));
+  return { added, removed, total: cars.length, prevCount: prevById.size };
 }
 
 // ─── 4. emit cars.js ───────────────────────────────────────────────────────
@@ -295,12 +299,26 @@ async function main() {
   await downloadImages(cars);
 
   console.log("[3/5] Diffing against existing cars.js...");
-  const prevIds = await readExistingOlxIds();
-  const diff = diffSummary(cars, prevIds);
-  console.log(`  prev: ${prevIds.size}  ->  new: ${diff.total}`);
+  const prevCars = await readPrevCars();
+  const diff = diffSummary(cars, prevCars);
+  console.log(`  prev: ${diff.prevCount}  ->  new: ${diff.total}`);
   console.log(`  added: ${diff.added.length}  removed: ${diff.removed.length}`);
-  if (diff.added.length) console.log(`    + ${diff.added.slice(0, 10).join(", ")}${diff.added.length > 10 ? " ..." : ""}`);
-  if (diff.removed.length) console.log(`    - ${diff.removed.slice(0, 10).join(", ")}${diff.removed.length > 10 ? " ..." : ""}`);
+  if (diff.added.length)
+    console.log(`    + ${diff.added.slice(0, 10).map((c) => c.olxId).join(", ")}${diff.added.length > 10 ? " ..." : ""}`);
+  if (diff.removed.length)
+    console.log(`    - ${diff.removed.slice(0, 10).map((c) => c.olxId).join(", ")}${diff.removed.length > 10 ? " ..." : ""}`);
+
+  if (notify.isEnabled()) {
+    console.log(`  sending Telegram notifications (${diff.added.length} added, ${diff.removed.length} removed)...`);
+    for (const c of diff.added) {
+      await notify.sendAddedCar(c);
+      await new Promise((r) => setTimeout(r, 600)); // rate limit
+    }
+    for (const c of diff.removed) {
+      await notify.sendRemovedCar(c);
+      await new Promise((r) => setTimeout(r, 600));
+    }
+  }
 
   console.log("[4/5] Writing src/data/cars.js...");
   const content = emitCarsJs(cars);
@@ -312,13 +330,22 @@ async function main() {
   const removedFolders = await cleanupRemovedFolders(activeIds);
   console.log(`  removed ${removedFolders} stale image folders`);
 
+  // Final summary line — only sent when there are actual changes, to keep
+  // the Telegram chat quiet on no-op days.
+  if (notify.isEnabled() && (diff.added.length || diff.removed.length)) {
+    await notify.sendSummary({ added: diff.added.length, removed: diff.removed.length, total: cars.length });
+  }
+
   console.log("\nDONE.");
   console.log(`  Total cars: ${cars.length}`);
   console.log(`  Added since last sync: ${diff.added.length}`);
   console.log(`  Removed since last sync: ${diff.removed.length}`);
 }
 
-main().catch((e) => {
+main().catch(async (e) => {
   console.error("FATAL:", e);
+  try {
+    await notify.sendError(e?.stack || e?.message || String(e));
+  } catch {}
   process.exit(1);
 });
