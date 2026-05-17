@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { Calendar, Gauge, Settings2, Fuel } from 'lucide-react';
 import './CarCard.css';
 
@@ -27,6 +28,24 @@ export default function CarCard({ car }) {
   const [photoIdx, setPhotoIdx] = useState(0);
   const intervalRef = useRef(null);
 
+  // 3D tilt math — tracked as motion values for smoothness
+  const mx = useMotionValue(0); // -0.5..0.5
+  const my = useMotionValue(0);
+  const rx = useSpring(useTransform(my, [-0.5, 0.5], [7, -7]), { stiffness: 220, damping: 18 });
+  const ry = useSpring(useTransform(mx, [-0.5, 0.5], [-7, 7]), { stiffness: 220, damping: 18 });
+
+  const onMove = (e) => {
+    const r = e.currentTarget.getBoundingClientRect();
+    mx.set((e.clientX - r.left) / r.width - 0.5);
+    my.set((e.clientY - r.top) / r.height - 0.5);
+  };
+
+  const onLeave = () => {
+    mx.set(0);
+    my.set(0);
+    stopCycle();
+  };
+
   const startCycle = () => {
     if (photos.length < 2 || intervalRef.current) return;
     intervalRef.current = setInterval(() => {
@@ -46,11 +65,13 @@ export default function CarCard({ car }) {
 
   return (
     <Link to={`/mobil/${car.id}`} className="car-card-link">
-      <article
+      <motion.article
         className="car-card animate-fade-in"
         onMouseEnter={startCycle}
-        onMouseLeave={stopCycle}
+        onMouseMove={onMove}
+        onMouseLeave={onLeave}
         onTouchStart={startCycle}
+        style={{ rotateX: rx, rotateY: ry, transformPerspective: 1000 }}
       >
         <div className="car-image-wrapper">
           {photos.map((src, i) => (
@@ -96,7 +117,7 @@ export default function CarCard({ car }) {
             <span className="car-detail-link">Lihat Detail →</span>
           </div>
         </div>
-      </article>
+      </motion.article>
     </Link>
   );
 }

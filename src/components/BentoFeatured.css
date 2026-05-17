@@ -1,0 +1,148 @@
+.bento-featured {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 260px);
+  gap: 1rem;
+}
+
+.bento-cell {
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+  display: block;
+  cursor: pointer;
+  isolation: isolate;
+}
+
+.bento-tilt {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.bento-cell img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.bento-cell:hover img {
+  transform: scale(1.08);
+}
+
+.bento-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.78) 100%);
+  z-index: 1;
+}
+
+.bento-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1.25rem;
+  z-index: 2;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.bento-content h3 {
+  font-size: 1.1rem;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.3;
+}
+
+.bento-content h4 {
+  font-size: 0.85rem;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.3;
+}
+
+.bento-badge {
+  align-self: flex-start;
+  background: var(--primary-color);
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.bento-tag {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #fbbf24;
+}
+
+.bento-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.bento-price {
+  font-size: 1.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #fbbf24 0%, #ef4444 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bento-price-sm {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #fbbf24;
+}
+
+.bento-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--white);
+}
+
+/* Grid placement */
+.bento-hero {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.bento-mid {
+  grid-column: span 2;
+}
+
+.bento-small {
+  grid-column: span 1;
+}
+
+@media (max-width: 900px) {
+  .bento-featured {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 240px 200px 200px;
+  }
+  .bento-hero { grid-column: span 2; grid-row: span 1; }
+  .bento-mid { grid-column: span 1; }
+  .bento-small { grid-column: span 1; }
+}

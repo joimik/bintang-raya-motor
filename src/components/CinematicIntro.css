@@ -1,0 +1,62 @@
+.intro-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: radial-gradient(ellipse at center, #2a0d0d 0%, #0a0707 70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.intro-stage {
+  text-align: center;
+  position: relative;
+  max-width: 90vw;
+}
+
+.intro-star {
+  font-size: clamp(3rem, 8vw, 5rem);
+  background: linear-gradient(135deg, #fbbf24 0%, #ef4444 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+}
+
+.intro-words {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  font-size: clamp(2rem, 6vw, 4rem);
+  color: var(--white);
+  letter-spacing: 0.05em;
+  display: flex;
+  justify-content: center;
+  gap: 0.04em;
+  flex-wrap: wrap;
+}
+
+.intro-words span {
+  display: inline-block;
+}
+
+.intro-tagline {
+  margin-top: 1.5rem;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: clamp(0.85rem, 1.4vw, 1rem);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.intro-bar {
+  margin-top: 2.5rem;
+  height: 2px;
+  background: linear-gradient(90deg, #fbbf24 0%, #ef4444 100%);
+  border-radius: 2px;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}

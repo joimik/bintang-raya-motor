@@ -1,0 +1,69 @@
+.brand-marquee {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 2.5rem 0;
+  background: var(--text-dark);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.brand-marquee-track {
+  display: flex;
+  gap: 3.5rem;
+  white-space: nowrap;
+  width: max-content;
+  animation: marquee 38s linear infinite;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: clamp(1.8rem, 3.6vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.brand-marquee-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.5rem;
+  color: rgba(255, 255, 255, 0.12);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.55);
+  transition: color 0.3s ease, -webkit-text-stroke 0.3s ease;
+}
+
+.brand-marquee-item:hover {
+  color: var(--white);
+  -webkit-text-stroke: 0;
+}
+
+.brand-marquee-dot {
+  font-size: 0.6em;
+  color: var(--primary-color);
+  -webkit-text-stroke: 0;
+}
+
+.brand-marquee-fade {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 14%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.brand-marquee-fade-l {
+  left: 0;
+  background: linear-gradient(90deg, var(--text-dark) 0%, transparent 100%);
+}
+
+.brand-marquee-fade-r {
+  right: 0;
+  background: linear-gradient(270deg, var(--text-dark) 0%, transparent 100%);
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brand-marquee-track { animation-duration: 90s; }
+}

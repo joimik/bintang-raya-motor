@@ -3,16 +3,30 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--white);
-  box-shadow: var(--shadow-sm);
+  background-color: transparent;
+  backdrop-filter: blur(0);
+  -webkit-backdrop-filter: blur(0);
   z-index: 1000;
-  transition: var(--transition);
-  height: 70px;
+  transition: background-color 0.35s ease, backdrop-filter 0.35s ease,
+    box-shadow 0.35s ease, height 0.35s ease, border-color 0.35s ease;
+  height: 76px;
+  border-bottom: 1px solid transparent;
 }
 
 .header.scrolled {
-  box-shadow: var(--shadow-md);
-  height: 65px;
+  background-color: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  box-shadow: 0 4px 24px -8px rgba(0, 0, 0, 0.08);
+  height: 60px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/* On routes that don't have a dark hero, default to solid (avoid floating
+   header over white). Apply .header-solid to body where you want this. */
+body.header-solid .header:not(.scrolled) {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-bottom-color: var(--border-color);
 }
 
 .header-container {
@@ -58,13 +72,22 @@
 
 .nav-links a:not(.nav-cta) {
   font-weight: 600;
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, 0.85);
   position: relative;
-  transition: var(--transition);
+  transition: color 0.25s ease;
 }
 
-.nav-links a:not(.nav-cta):hover, 
+.header.scrolled .nav-links a:not(.nav-cta) {
+  color: var(--text-muted);
+}
+
+.nav-links a:not(.nav-cta):hover,
 .nav-links a:not(.nav-cta).active {
+  color: var(--white);
+}
+
+.header.scrolled .nav-links a:not(.nav-cta):hover,
+.header.scrolled .nav-links a:not(.nav-cta).active {
   color: var(--primary-color);
 }
 

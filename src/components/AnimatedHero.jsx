@@ -5,8 +5,6 @@ import { MoveRight, Phone, Sparkles } from 'lucide-react';
 import { cars } from '../data/cars';
 import './AnimatedHero.css';
 
-// Pick a handful of premium-feeling photos for the rotating hero backdrop.
-// Use the most expensive cars — they're typically the most photogenic.
 function pickHeroCars(all, n = 5) {
   return [...all]
     .filter((c) => c.image && c.price > 0)
@@ -31,6 +29,32 @@ function useCountUp(target, durationMs = 1500) {
   return val;
 }
 
+// Cycles the tagline through random chars before settling. Only runs once
+// per word change; subtle by default.
+function ScrambleWord({ word, durationMs = 700 }) {
+  const [display, setDisplay] = useState(word);
+  useEffect(() => {
+    const chars = 'BNTGMORKUVZWXPYL';
+    let raf;
+    const start = performance.now();
+    const tick = (now) => {
+      const t = Math.min(1, (now - start) / durationMs);
+      const revealed = Math.floor(word.length * t);
+      let out = '';
+      for (let i = 0; i < word.length; i++) {
+        if (i < revealed || word[i] === ' ') out += word[i];
+        else out += chars[Math.floor(Math.random() * chars.length)];
+      }
+      setDisplay(out);
+      if (t < 1) raf = requestAnimationFrame(tick);
+      else setDisplay(word);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+  }, [word, durationMs]);
+  return <>{display}</>;
+}
+
 export default function AnimatedHero() {
   const rotations = useMemo(
     () => ['Terpercaya', 'Berkualitas', 'Bergaransi', 'Pajak Hidup', 'Siap Pakai'],
@@ -44,7 +68,7 @@ export default function AnimatedHero() {
   const animatedCount = useCountUp(carCount, 1500);
 
   useEffect(() => {
-    const t = setTimeout(() => setWordIdx((p) => (p + 1) % rotations.length), 2000);
+    const t = setTimeout(() => setWordIdx((p) => (p + 1) % rotations.length), 2400);
     return () => clearTimeout(t);
   }, [wordIdx, rotations]);
 
@@ -55,7 +79,7 @@ export default function AnimatedHero() {
   }, [heroCars]);
 
   return (
-    <section className="ahero">
+    <section className="ahero fx-dark">
       <AnimatePresence mode="wait">
         <motion.div
           key={bgIdx}
@@ -69,6 +93,11 @@ export default function AnimatedHero() {
         />
       </AnimatePresence>
       <div className="ahero-gradient" aria-hidden="true" />
+
+      {/* Floating ambient gradient orbs */}
+      <div className="ahero-orb orb-1" aria-hidden="true" />
+      <div className="ahero-orb orb-2" aria-hidden="true" />
+      <div className="ahero-orb orb-3" aria-hidden="true" />
 
       <div className="container ahero-inner">
         <div className="ahero-pill">
@@ -95,7 +124,7 @@ export default function AnimatedHero() {
                     : { y: wordIdx > idx ? -180 : 180, opacity: 0 }
                 }
               >
-                {word}
+                {wordIdx === idx ? <ScrambleWord word={word} /> : word}
               </motion.span>
             ))}
           </span>
@@ -111,11 +140,11 @@ export default function AnimatedHero() {
             href="https://wa.me/62811225039?text=Halo%20Bintang%20Motor%2C%20saya%20ingin%20bertanya%20tentang%20mobil%20yang%20tersedia."
             target="_blank"
             rel="noreferrer"
-            className="btn btn-whatsapp btn-lg ahero-pulse"
+            className="btn btn-whatsapp btn-lg ahero-pulse magnetic"
           >
             <Phone size={18} /> Chat WhatsApp
           </a>
-          <Link to="/mobil" className="btn btn-primary btn-lg">
+          <Link to="/mobil" className="btn btn-primary btn-lg magnetic">
             Lihat {carCount} Mobil <MoveRight size={18} />
           </Link>
         </div>
@@ -126,7 +155,6 @@ export default function AnimatedHero() {
           <span className="ahero-trust-item">✓ Terima tukar tambah</span>
         </div>
 
-        {/* Tiny indicator showing which hero photo is on */}
         <div className="ahero-bg-dots" aria-hidden="true">
           {heroCars.map((_, i) => (
             <span key={i} className={`ahero-bg-dot ${i === bgIdx ? 'is-active' : ''}`} />

@@ -1,0 +1,76 @@
+/* Soft glow that shows on dark sections only */
+.cursor-glow {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 380px;
+  height: 380px;
+  pointer-events: none;
+  z-index: 9990;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(251, 191, 36, 0.18) 0%,
+    rgba(239, 68, 68, 0.12) 30%,
+    rgba(0, 0, 0, 0) 70%
+  );
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  mix-blend-mode: screen;
+  will-change: transform;
+}
+
+.cursor-glow.is-visible {
+  opacity: 1;
+}
+
+/* Small precision ring that always follows cursor */
+.cursor-ring {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 14px;
+  height: 14px;
+  pointer-events: none;
+  z-index: 9999;
+  border: 1.5px solid var(--primary-color);
+  border-radius: 50%;
+  background: transparent;
+  transition: width 0.2s ease, height 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+  will-change: transform;
+}
+
+.cursor-ring.is-hover {
+  width: 36px;
+  height: 36px;
+  background: rgba(185, 28, 28, 0.12);
+  border-color: var(--primary-color);
+}
+
+.cursor-ring.is-dark {
+  border-color: rgba(251, 191, 36, 0.9);
+  mix-blend-mode: difference;
+}
+
+/* When the cursor system is active, hide the native cursor on the body */
+body.has-cursor-fx {
+  cursor: none;
+}
+
+body.has-cursor-fx a,
+body.has-cursor-fx button,
+body.has-cursor-fx input,
+body.has-cursor-fx select,
+body.has-cursor-fx textarea {
+  cursor: none;
+}
+
+/* Magnetic element baseline */
+.magnetic {
+  transition: transform 0.25s cubic-bezier(0.21, 0.6, 0.32, 0.99);
+  will-change: transform;
+}
+
+@media (hover: none) {
+  .cursor-glow, .cursor-ring { display: none; }
+}

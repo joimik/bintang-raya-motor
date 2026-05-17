@@ -88,12 +88,26 @@
 .ahero-rot-word {
   position: absolute;
   font-weight: 800;
-  background: linear-gradient(135deg, #fbbf24 0%, #f87171 50%, #ef4444 100%);
+  background: linear-gradient(
+    90deg,
+    #fbbf24 0%,
+    #f87171 25%,
+    #ef4444 50%,
+    #fb923c 75%,
+    #fbbf24 100%
+  );
+  background-size: 300% 100%;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   letter-spacing: -0.03em;
   white-space: nowrap;
+  animation: rotHueShift 6s ease-in-out infinite;
+}
+
+@keyframes rotHueShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
 }
 
 .ahero-subtitle {
@@ -165,6 +179,61 @@
 
 .ahero-pulse {
   animation: whatsappPulse 2.4s ease-out infinite;
+}
+
+/* Floating ambient gradient orbs behind the hero text */
+.ahero-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.55;
+  z-index: 1;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.orb-1 {
+  width: 480px;
+  height: 480px;
+  background: radial-gradient(circle, #ef4444 0%, transparent 70%);
+  top: -120px;
+  left: -120px;
+  animation: orbFloat1 18s ease-in-out infinite;
+}
+
+.orb-2 {
+  width: 380px;
+  height: 380px;
+  background: radial-gradient(circle, #fbbf24 0%, transparent 70%);
+  bottom: -100px;
+  right: -80px;
+  animation: orbFloat2 22s ease-in-out infinite;
+}
+
+.orb-3 {
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, #f87171 0%, transparent 70%);
+  top: 35%;
+  right: 30%;
+  animation: orbFloat3 26s ease-in-out infinite;
+  opacity: 0.35;
+}
+
+@keyframes orbFloat1 {
+  0%, 100% { transform: translate(0, 0); }
+  33% { transform: translate(80px, 40px); }
+  66% { transform: translate(-30px, 60px); }
+}
+
+@keyframes orbFloat2 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(-100px, -50px); }
+}
+
+@keyframes orbFloat3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(60px, -40px) scale(1.15); }
 }
 
 @media (max-width: 640px) {
