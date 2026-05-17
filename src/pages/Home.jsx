@@ -5,7 +5,6 @@ import AnimatedHero from '../components/AnimatedHero';
 import BrandBar from '../components/BrandBar';
 import BrandMarquee from '../components/BrandMarquee';
 import BentoFeatured from '../components/BentoFeatured';
-import Turntable from '../components/Turntable';
 import CarCard from '../components/CarCard';
 import Reveal from '../components/Reveal';
 import SectionHeader from '../components/SectionHeader';
@@ -78,11 +77,6 @@ export default function Home() {
 
       {/* Brand marquee — full-bleed dark cinematic strip */}
       <BrandMarquee />
-
-      {/* 360 turntable spotlight */}
-      <Reveal>
-        <Turntable />
-      </Reveal>
 
       {/* Budget cars */}
       {budgetCars.length > 0 && (
