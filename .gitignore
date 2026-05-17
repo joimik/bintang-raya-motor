@@ -16,5 +16,7 @@ scripts/olx-next-data.json
 scripts/olx-pagination-debug.html
 scripts/olx-debug.html
 scripts/shot-*.png
+scripts/audit/
 scripts/olx-probe*.mjs
 scripts/screenshot-verify.mjs
+scripts/visual-audit.mjs
