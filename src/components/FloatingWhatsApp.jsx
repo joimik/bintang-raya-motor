@@ -2,7 +2,7 @@ import React from 'react';
 import './FloatingWhatsApp.css';
 
 export default function FloatingWhatsApp() {
-  const phoneNumber = "62811225039";
+  const phoneNumber = "62811245689";
   const message = "Halo Bintang Motor, saya ingin bertanya tentang mobil bekas.";
   
   return (

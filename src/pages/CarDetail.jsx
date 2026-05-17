@@ -26,7 +26,7 @@ export default function CarDetail() {
 
   const priceDisplay = car.price === 0 ? car.priceCash : formatPrice(car.price);
   const message = `Halo Bintang Motor, saya tertarik dengan mobil ${car.name} tahun ${car.year} seharga ${priceDisplay}. Apakah masih tersedia?`;
-  const whatsappUrl = `https://wa.me/62811225039?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://wa.me/62811245689?text=${encodeURIComponent(message)}`;
 
   return (
     <div className="car-detail py-5">

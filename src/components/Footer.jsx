@@ -59,7 +59,7 @@ export default function Footer() {
             </li>
             <li>
               <Phone size={18} className="icon" />
-              <span>(022) 5210808</span>
+              <span>+62 811-245-689</span>
             </li>
           </ul>
         </div>

@@ -137,7 +137,7 @@ export default function AnimatedHero() {
 
         <div className="ahero-cta">
           <a
-            href="https://wa.me/62811225039?text=Halo%20Bintang%20Motor%2C%20saya%20ingin%20bertanya%20tentang%20mobil%20yang%20tersedia."
+            href="https://wa.me/62811245689?text=Halo%20Bintang%20Motor%2C%20saya%20ingin%20bertanya%20tentang%20mobil%20yang%20tersedia."
             target="_blank"
             rel="noreferrer"
             className="btn btn-whatsapp btn-lg ahero-pulse magnetic"

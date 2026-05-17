@@ -30,7 +30,7 @@ export default function Header() {
           <NavLink to="/tentang-kami" onClick={() => setIsMenuOpen(false)} className={({isActive}) => isActive ? 'active' : ''}>Tentang Kami</NavLink>
           <NavLink to="/kontak" onClick={() => setIsMenuOpen(false)} className={({isActive}) => isActive ? 'active' : ''}>Kontak</NavLink>
           
-          <a href="https://wa.me/62811225039" target="_blank" rel="noreferrer" className="btn btn-primary nav-cta">
+          <a href="https://wa.me/62811245689" target="_blank" rel="noreferrer" className="btn btn-primary nav-cta">
             <Phone size={18} /> Hubungi Kami
           </a>
         </nav>

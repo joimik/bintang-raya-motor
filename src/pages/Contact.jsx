@@ -30,7 +30,7 @@ export default function Contact() {
                 <div className="icon-wrapper"><Phone size={24} /></div>
                 <div className="contact-text">
                   <h3>Telepon / WhatsApp</h3>
-                  <p>(022) 5210808<br/>+62 811-225-039 (WA)</p>
+                  <p>+62 811-245-689</p>
                 </div>
               </div>
 
@@ -46,13 +46,13 @@ export default function Contact() {
                 <div className="icon-wrapper"><Mail size={24} /></div>
                 <div className="contact-text">
                   <h3>Email</h3>
-                  <p>halo@bintangrayamotor.com</p>
+                  <p>bintangrayamotor@yahoo.com</p>
                 </div>
               </div>
             </div>
             
             <a 
-              href="https://wa.me/62811225039" 
+              href="https://wa.me/62811245689"
               target="_blank" 
               rel="noreferrer" 
               className="btn btn-whatsapp w-100 mt-4 contact-btn-wa"
