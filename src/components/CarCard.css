@@ -36,11 +36,43 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.5s ease;
+  opacity: 0;
+  transition: opacity 0.45s ease, transform 0.7s ease;
 }
 
-.car-card-link:hover .car-image {
-  transform: scale(1.06);
+.car-image.is-active {
+  opacity: 1;
+}
+
+.car-card-link:hover .car-image.is-active {
+  transform: scale(1.05);
+}
+
+.car-photo-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 12px;
+  display: flex;
+  gap: 4px;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.car-card-link:hover .car-photo-dots {
+  opacity: 1;
+}
+
+.car-photo-dot {
+  width: 22px;
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.45);
+  transition: background 0.25s ease;
+}
+
+.car-photo-dot.is-active {
+  background: var(--white);
 }
 
 .car-badges {

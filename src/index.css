@@ -28,6 +28,13 @@ body {
   background-color: var(--bg-color);
   color: var(--text-dark);
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, .ahero-title, .section-title-left, .detail-title, .car-name {
+  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  letter-spacing: -0.015em;
 }
 
 a {

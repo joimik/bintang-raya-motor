@@ -12,10 +12,9 @@
 .ahero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('/images/olx-945347089/photo-1.jpg');
   background-size: cover;
   background-position: center;
-  filter: blur(6px) brightness(0.4) saturate(1.1);
+  filter: blur(6px) brightness(0.4) saturate(1.15);
   transform: scale(1.1);
   z-index: 0;
 }
@@ -130,6 +129,42 @@
 
 .ahero-trust-item {
   white-space: nowrap;
+}
+
+.ahero-bg-dots {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.ahero-bg-dot {
+  width: 32px;
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.25);
+  transition: background 0.45s ease, width 0.45s ease;
+}
+
+.ahero-bg-dot.is-active {
+  background: linear-gradient(90deg, #fbbf24 0%, #ef4444 100%);
+  width: 48px;
+}
+
+/* Pulsing WhatsApp button on hero */
+@keyframes whatsappPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.55);
+  }
+  50% {
+    box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+  }
+}
+
+.ahero-pulse {
+  animation: whatsappPulse 2.4s ease-out infinite;
 }
 
 @media (max-width: 640px) {

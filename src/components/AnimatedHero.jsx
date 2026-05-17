@@ -1,35 +1,81 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { MoveRight, Phone, Sparkles } from 'lucide-react';
 import { cars } from '../data/cars';
 import './AnimatedHero.css';
 
+// Pick a handful of premium-feeling photos for the rotating hero backdrop.
+// Use the most expensive cars — they're typically the most photogenic.
+function pickHeroCars(all, n = 5) {
+  return [...all]
+    .filter((c) => c.image && c.price > 0)
+    .sort((a, b) => b.price - a.price)
+    .slice(0, n);
+}
+
+function useCountUp(target, durationMs = 1500) {
+  const [val, setVal] = useState(0);
+  useEffect(() => {
+    let raf;
+    const start = performance.now();
+    const tick = (now) => {
+      const t = Math.min(1, (now - start) / durationMs);
+      const eased = 1 - Math.pow(1 - t, 3);
+      setVal(Math.round(target * eased));
+      if (t < 1) raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+  }, [target, durationMs]);
+  return val;
+}
+
 export default function AnimatedHero() {
-  const [i, setI] = useState(0);
   const rotations = useMemo(
     () => ['Terpercaya', 'Berkualitas', 'Bergaransi', 'Pajak Hidup', 'Siap Pakai'],
     []
   );
+  const heroCars = useMemo(() => pickHeroCars(cars, 5), []);
+
+  const [wordIdx, setWordIdx] = useState(0);
+  const [bgIdx, setBgIdx] = useState(0);
+  const carCount = cars.length;
+  const animatedCount = useCountUp(carCount, 1500);
 
   useEffect(() => {
-    const t = setTimeout(() => {
-      setI((prev) => (prev === rotations.length - 1 ? 0 : prev + 1));
-    }, 2000);
+    const t = setTimeout(() => setWordIdx((p) => (p + 1) % rotations.length), 2000);
     return () => clearTimeout(t);
-  }, [i, rotations]);
+  }, [wordIdx, rotations]);
 
-  const carCount = cars.length;
+  useEffect(() => {
+    if (heroCars.length < 2) return;
+    const t = setInterval(() => setBgIdx((p) => (p + 1) % heroCars.length), 5000);
+    return () => clearInterval(t);
+  }, [heroCars]);
 
   return (
     <section className="ahero">
-      <div className="ahero-bg" aria-hidden="true" />
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={bgIdx}
+          className="ahero-bg"
+          style={{ backgroundImage: `url(${heroCars[bgIdx]?.image})` }}
+          initial={{ opacity: 0, scale: 1.15 }}
+          animate={{ opacity: 1, scale: 1.1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 1.2, ease: 'easeOut' }}
+          aria-hidden="true"
+        />
+      </AnimatePresence>
       <div className="ahero-gradient" aria-hidden="true" />
 
       <div className="container ahero-inner">
         <div className="ahero-pill">
           <Sparkles size={14} />
-          <span>{carCount} mobil siap dilihat hari ini</span>
+          <span>
+            <strong>{animatedCount}</strong> mobil siap dilihat hari ini
+          </span>
           <MoveRight size={14} />
         </div>
 
@@ -44,9 +90,9 @@ export default function AnimatedHero() {
                 initial={{ opacity: 0, y: -120 }}
                 transition={{ type: 'spring', stiffness: 50 }}
                 animate={
-                  i === idx
+                  wordIdx === idx
                     ? { y: 0, opacity: 1 }
-                    : { y: i > idx ? -180 : 180, opacity: 0 }
+                    : { y: wordIdx > idx ? -180 : 180, opacity: 0 }
                 }
               >
                 {word}
@@ -65,7 +111,7 @@ export default function AnimatedHero() {
             href="https://wa.me/62811225039?text=Halo%20Bintang%20Motor%2C%20saya%20ingin%20bertanya%20tentang%20mobil%20yang%20tersedia."
             target="_blank"
             rel="noreferrer"
-            className="btn btn-whatsapp btn-lg"
+            className="btn btn-whatsapp btn-lg ahero-pulse"
           >
             <Phone size={18} /> Chat WhatsApp
           </a>
@@ -78,6 +124,13 @@ export default function AnimatedHero() {
           <span className="ahero-trust-item">✓ Verified OLX seller sejak 2016</span>
           <span className="ahero-trust-item">✓ Plat D Bandung</span>
           <span className="ahero-trust-item">✓ Terima tukar tambah</span>
+        </div>
+
+        {/* Tiny indicator showing which hero photo is on */}
+        <div className="ahero-bg-dots" aria-hidden="true">
+          {heroCars.map((_, i) => (
+            <span key={i} className={`ahero-bg-dot ${i === bgIdx ? 'is-active' : ''}`} />
+          ))}
         </div>
       </div>
     </section>
