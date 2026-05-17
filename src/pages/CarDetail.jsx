@@ -46,6 +46,7 @@ export default function CarDetail() {
                     key={i}
                     src={img}
                     alt={`Thumbnail ${i + 1}`}
+                    loading="lazy"
                     className={`thumbnail ${activeImage === i ? 'active' : ''}`}
                     onClick={() => setActiveImage(i)}
                   />

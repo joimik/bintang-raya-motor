@@ -218,17 +218,38 @@
   }
   .detail-sidebar {
     position: static;
+    /* Critical: on mobile/tablet, show the name + price + WhatsApp button
+       ABOVE the photo gallery and description, since they're the primary
+       conversion drivers. */
+    order: -1;
   }
   .main-image {
     height: 400px;
+  }
+  /* Trim the sidebar's sticky padding when it's just a flow section */
+  .sidebar-card.summary-card .olx-spacer {
+    height: 16px;
   }
 }
 
 @media (max-width: 768px) {
   .main-image {
-    height: 300px;
+    height: 280px;
   }
   .features-grid {
     grid-template-columns: 1fr;
+  }
+  .detail-title {
+    font-size: 1.5rem;
+  }
+  .detail-price {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .thumbnail {
+    height: 70px;
+  }
+  .info-card, .sidebar-card {
+    padding: 1.25rem;
   }
 }

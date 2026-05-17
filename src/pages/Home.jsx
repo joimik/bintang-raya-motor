@@ -1,112 +1,113 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, CheckCircle, Star, Phone } from 'lucide-react';
+import { ArrowRight, CheckCircle, ShieldCheck, MapPin } from 'lucide-react';
+import AnimatedHero from '../components/AnimatedHero';
 import CarCard from '../components/CarCard';
 import { cars } from '../data/cars';
 import './Home.css';
 
 export default function Home() {
-  const featuredCars = cars.filter(car => car.isFeatured).slice(0, 3);
-
-  const testimonials = [
-    { id: 1, name: 'Budi Santoso', text: 'Beli Xpander di sini sangat memuaskan. Kondisi sesuai deskripsi, tidak ada biaya tersembunyi. Proses cepat!', rating: 5 },
-    { id: 2, name: 'Siti Aminah', text: 'Showroom paling jujur di Bandung. Mobilnya benar-benar berkualitas dan harganya bersahabat. Recommended banget.', rating: 5 },
-    { id: 3, name: 'Rudi Hermawan', text: 'Saya beli Avanza untuk taksi online, kondisi mesin prima. Harga juga nego sampai jadi. Sukses terus Bintang Motor.', rating: 4.5 }
-  ];
+  const featuredCars = cars.filter((c) => c.isFeatured).slice(0, 3);
+  const budgetCars = cars
+    .filter((c) => c.price > 0 && c.price < 150_000_000)
+    .sort((a, b) => a.price - b.price)
+    .slice(0, 6);
 
   return (
     <div className="home">
-      {/* Hero Section */}
-      <section className="hero">
-        <div className="hero-overlay"></div>
-        <div className="container hero-content">
-          <div className="hero-text-area">
-            <h1 className="hero-title">
-              Kualitas & Kepuasan, <br /><span className="text-accent">Kami Utamakan</span>
-            </h1>
-            <p className="hero-subtitle">
-              Pilihan terpercaya di Bandung. Beli mobil impian Anda dengan harga jujur, kondisi prima, dan siap pakai tanpa rasa khawatir.
-            </p>
-            <div className="hero-cta">
-              <Link to="/mobil" className="btn btn-primary">
-                Lihat Mobil <ArrowRight size={18} />
-              </Link>
-              <a href="https://wa.me/62811225039" target="_blank" rel="noreferrer" className="btn btn-whatsapp">
-                <Phone size={18} /> Chat WhatsApp
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <AnimatedHero />
 
-      {/* Trust Banner */}
-      <section className="trust-banner">
+      {/* Trust strip */}
+      <section className="trust-strip">
         <div className="container trust-grid">
           <div className="trust-item">
-            <div className="trust-icon"><CheckCircle /></div>
+            <CheckCircle className="trust-icon" />
             <div>
               <h3>Kualitas Terjamin</h3>
-              <p>Melewati inspeksi ketat 150+ titik</p>
+              <p>Inspeksi internal pada setiap unit sebelum dijual</p>
             </div>
           </div>
           <div className="trust-item">
-            <div className="trust-icon"><Star /></div>
+            <ShieldCheck className="trust-icon" />
             <div>
-              <h3>Review Bintang 4.5</h3>
-              <p>Dari ratusan pelanggan puas</p>
+              <h3>Dokumen Lengkap</h3>
+              <p>BPKB, STNK, & faktur asli — pajak hidup</p>
             </div>
           </div>
           <div className="trust-item">
-            <div className="trust-icon" style={{fontWeight: 'bold', fontSize: '1.5rem'}}>Rp</div>
+            <MapPin className="trust-icon" />
             <div>
-              <h3>Harga Transparan</h3>
-              <p>Mulai dari Rp 60 Jutaan saja</p>
+              <h3>Showroom Bandung</h3>
+              <p>Jln. Pungkur No.199 — buka setiap hari</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Featured Cars */}
-      <section className="py-5 bg-white">
+      {/* Featured */}
+      <section className="home-section">
         <div className="container">
-          <h2 className="section-title">Mobil Pilihan Kami</h2>
+          <h2 className="section-title">Pilihan Kami</h2>
           <div className="grid grid-cols-3">
-            {featuredCars.map(car => (
+            {featuredCars.map((car) => (
               <CarCard key={car.id} car={car} />
             ))}
           </div>
-          <div className="text-center mt-4" style={{marginTop: '3rem'}}>
+          <div className="text-center" style={{ marginTop: '2.5rem' }}>
             <Link to="/mobil" className="btn btn-primary">
-              Lihat Semua Koleksi
+              Lihat Semua {cars.length} Mobil <ArrowRight size={18} />
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Starting Price Section */}
-      <section className="starting-price-section">
-        <div className="container starting-price-content">
-          <h2>Punya Bajet Terbatas?</h2>
-          <p>Jangan khawatir! Kami menyediakan berbagai pilihan mobil bekas berkualitas <strong>mulai dari Rp 60 jutaan</strong> yang siap pakai untuk keluarga Anda.</p>
-          <Link to="/mobil" className="btn btn-accent mt-4">Cari Mobil Murah</Link>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-5 bg-light">
-        <div className="container">
-          <h2 className="section-title">Apa Kata Mereka?</h2>
-          <div className="grid grid-cols-3">
-            {testimonials.map(testi => (
-              <div key={testi.id} className="testimonial-card">
-                <div className="stars">
-                  {[...Array(Math.floor(testi.rating))].map((_, i) => <Star key={i} size={18} fill="currentColor" />)}
-                  {testi.rating % 1 !== 0 && <Star size={18} fill="currentColor" style={{ clipPath: 'inset(0 50% 0 0)' }}/>}
-                </div>
-                <p className="testi-text">"{testi.text}"</p>
-                <div className="testi-author">- {testi.name}</div>
+      {/* Budget cars (replaces the empty "Bajet Terbatas" block) */}
+      {budgetCars.length > 0 && (
+        <section className="home-section bg-dim">
+          <div className="container">
+            <div className="section-head">
+              <div>
+                <h2 className="section-title-left">Mobil Dibawah Rp 150 Juta</h2>
+                <p className="section-sub">
+                  {budgetCars.length} pilihan terbaik untuk bajet terbatas — semua siap pakai.
+                </p>
               </div>
-            ))}
+              <Link to="/mobil" className="btn btn-outline">
+                Lihat Semua →
+              </Link>
+            </div>
+            <div className="grid grid-cols-3">
+              {budgetCars.map((car) => (
+                <CarCard key={car.id} car={car} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Verified trust block — replaces fake testimonials */}
+      <section className="home-section">
+        <div className="container">
+          <div className="verified-block">
+            <div className="verified-badge">
+              <ShieldCheck size={32} />
+            </div>
+            <div>
+              <h2>Verified Seller di OLX sejak Oktober 2016</h2>
+              <p>
+                Profil OLX kami telah aktif selama 9+ tahun dengan ratusan transaksi.
+                Stok mobil di website ini disinkronkan langsung dari OLX setiap hari —
+                apa yang Anda lihat di sini adalah yang benar-benar tersedia di showroom.
+              </p>
+              <a
+                href="https://www.olx.co.id/profile/60978918"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-olx"
+              >
+                Cek Profil OLX Kami →
+              </a>
+            </div>
           </div>
         </div>
       </section>

@@ -31,6 +31,29 @@ function parseTax(description) {
   return m ? m[1] : "—";
 }
 
+// Strip OLX-specific footer (showroom address + opening hours) from the
+// description so the website shows only the actual condition write-up.
+function cleanDescription(description) {
+  if (!description) return "";
+  const cutMarkers = [
+    /\bKUNJUNGI\s+LANGSUNG\b/i,
+    /\bBINTANG\s+MOTOR\b\s*\n*\s*KUALITAS/i,
+    /\bJL[NA]?\.?\s*PUNGKUR\b/i,
+    /\bBuka\s+setiap\s+hari\b/i,
+    /\bShowroom\s+Terpercaya\b/i,
+  ];
+  let cut = description.length;
+  for (const re of cutMarkers) {
+    const m = description.match(re);
+    if (m && m.index < cut) cut = m.index;
+  }
+  return description
+    .slice(0, cut)
+    .replace(/\r/g, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
 function parseCreditPrice(description) {
   // Catches things like "OTR khusus kredit : 329 jt"
   const m = description?.match(/(?:khusus\s+kredit|kredit)\s*[:=]?\s*Rp?\s*([\d.,]+)\s*(jt|juta|rb|m)?/i);
@@ -83,7 +106,8 @@ function normalize(item) {
     body,
     location: "Bandung (Plat D)",
     tax,
-    description: item.description,
+    description: cleanDescription(item.description),
+    addedAt: item.created_at_first || item.created_at || null,
     olxUrl: `https://www.olx.co.id/item/iid-${item.id}`,
     rawImages: (item.images || []).map((img) => img.full?.url || img.url),
   };
@@ -241,6 +265,7 @@ function emitCarsJs(cars) {
     location: ${JSON.stringify(c.location)},
     tax: ${JSON.stringify(c.tax)},
     description: ${JSON.stringify(c.description)},
+    addedAt: ${c.addedAt ? JSON.stringify(c.addedAt) : "null"},
     olxUrl: ${JSON.stringify(c.olxUrl)},
     image: ${JSON.stringify(c.image)},
     images: [

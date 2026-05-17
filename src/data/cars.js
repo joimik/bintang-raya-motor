@@ -29,7 +29,8 @@ export const cars = [
     body: "Coupe",
     location: "Bandung (Plat D)",
     tax: "November 2026",
-    description: "OTR cash : 345 jt nego\nOTR khusus kredit : 329 jt\n\n- Plat D (Bandung)\n- Pajak on bln November 2026\n- Kilometer rendah 50Rb\n- Service record bengkel resmi\n- Transmisi automatic\n- Kondisi sangat terawat\n- Unit READY & bisa langsung dilihat ke showroom\n- Cash atau credit\r\n- Terima tukar tambah\r\n- Dokumen dijamin lengkap & asli\n- Harga cash nego\r\n- Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 345 jt nego\nOTR khusus kredit : 329 jt\n\n- Plat D (Bandung)\n- Pajak on bln November 2026\n- Kilometer rendah 50Rb\n- Service record bengkel resmi\n- Transmisi automatic\n- Kondisi sangat terawat\n- Unit READY & bisa langsung dilihat ke showroom\n- Cash atau credit\n- Terima tukar tambah\n- Dokumen dijamin lengkap & asli\n- Harga cash nego\n-",
+    addedAt: "2026-05-16T18:59:37+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945347089",
     image: "/images/olx-945347089/photo-1.jpg",
     images: [
@@ -64,7 +65,8 @@ export const cars = [
     body: "Sedan",
     location: "Bandung (Plat D)",
     tax: "Sept 2026",
-    description: "OTR cash : 379 Jt nego\nOTR khusus credit : 359 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Sept 2026\n* Kilometer rendah\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 379 Jt nego\nOTR khusus credit : 359 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Sept 2026\n* Kilometer rendah\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-16T18:55:40+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945347004",
     image: "/images/olx-945347004/photo-1.jpg",
     images: [
@@ -100,7 +102,8 @@ export const cars = [
     body: "Truk",
     location: "Bandung (Plat D)",
     tax: "April 2027",
-    description: "* Plat D (Bandung)\n* Pajak on bln April 2027\n* 100PS double box\n* Kondisi terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "* Plat D (Bandung)\n* Pajak on bln April 2027\n* 100PS double box\n* Kondisi terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-15T17:18:47+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945318614",
     image: "/images/olx-945318614/photo-1.jpg",
     images: [
@@ -133,7 +136,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Agust 2026",
-    description: "OTR cash : 199 jt nego\nOTR khusus kredit : 189 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Agust 2026\n* Kilometer rendah 82rb\n* Panoramic Sunroof\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 199 jt nego\nOTR khusus kredit : 189 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Agust 2026\n* Kilometer rendah 82rb\n* Panoramic Sunroof\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-15T17:04:14+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945318281",
     image: "/images/olx-945318281/photo-1.jpg",
     images: [
@@ -170,7 +174,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Januari 2027",
-    description: "OTR cash : 239 jt nego\nOTR khusus kredit : 223 jt   (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Januari 2027\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 239 jt nego\nOTR khusus kredit : 223 jt   (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Januari 2027\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-15T16:56:24+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945318120",
     image: "/images/olx-945318120/photo-1.jpg",
     images: [
@@ -206,7 +211,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Agust 2026",
-    description: "OTR cash : 308 Jt nego\nOTR khusus credit : 288 Jt (*min tenor 3 & 4 thn)\n\n- Plat D (Bandung)\n- Pajak on bln Agust 2026\n- Full Panoramic\n- Sunroof\n- Jok kulit ori\n- Transmisi automatic AWD\n- Kondisi sangat terawat\n- Unit READY & bisa langsung dilihat ke showroom\r\n- Cash atau credit\r\n- Terima tukar tambah\r\n- Dokumen dijamin lengkap & asli\n- Harga cash nego\r\n- Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 308 Jt nego\nOTR khusus credit : 288 Jt (*min tenor 3 & 4 thn)\n\n- Plat D (Bandung)\n- Pajak on bln Agust 2026\n- Full Panoramic\n- Sunroof\n- Jok kulit ori\n- Transmisi automatic AWD\n- Kondisi sangat terawat\n- Unit READY & bisa langsung dilihat ke showroom\n- Cash atau credit\n- Terima tukar tambah\n- Dokumen dijamin lengkap & asli\n- Harga cash nego\n-",
+    addedAt: "2026-05-15T09:50:11+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945305256",
     image: "/images/olx-945305256/photo-1.jpg",
     images: [
@@ -241,7 +247,8 @@ export const cars = [
     body: "Hatchback",
     location: "Bandung (Plat D)",
     tax: "Mei 2027",
-    description: "OTR cash : 163 Jt nego\nOTR khusus credit : 149 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Mei 2027\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi toyota\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 163 Jt nego\nOTR khusus credit : 149 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Mei 2027\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi toyota\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-15T09:44:36+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945305082",
     image: "/images/olx-945305082/photo-1.jpg",
     images: [
@@ -276,7 +283,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Juni 2027",
-    description: "OTR cash : 258 Jt nego\nOTR khusus credit : 239 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juni 2027\n* Thn 2014 model pertama Facelift\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 258 Jt nego\nOTR khusus credit : 239 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juni 2027\n* Thn 2014 model pertama Facelift\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-15T08:06:42+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945303107",
     image: "/images/olx-945303107/photo-1.jpg",
     images: [
@@ -313,7 +321,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Pabruari 2027",
-    description: "OTR cash : 405 Jt nego\nOTR khusus credit : 389 Jt (*min tenor 3 & 4 thn)\n\n* Plat T (Purwakarta)\n* Pajak on bln Pabruari 2027\n* Kilometer rendah 31rb\n* Buku manual & buku service ada\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 405 Jt nego\nOTR khusus credit : 389 Jt (*min tenor 3 & 4 thn)\n\n* Plat T (Purwakarta)\n* Pajak on bln Pabruari 2027\n* Kilometer rendah 31rb\n* Buku manual & buku service ada\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-15T07:54:58+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945302937",
     image: "/images/olx-945302937/photo-1.jpg",
     images: [
@@ -348,7 +357,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Desember 2026",
-    description: "OTR cash : 479 Jt nego\nOTR khusus credit : 449 Jt (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Desember 2026\n* Kilometer rendah\n* Kunci ada 2\n* Service record bengkel resmi \n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 479 Jt nego\nOTR khusus credit : 449 Jt (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Desember 2026\n* Kilometer rendah\n* Kunci ada 2\n* Service record bengkel resmi \n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-14T10:42:53+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945282571",
     image: "/images/olx-945282571/photo-1.jpg",
     images: [
@@ -385,7 +395,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Sept 2026",
-    description: "OTR cash : 559 jt nego\nOTR khusus kredit : 529 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Sept 2026\n* Type Premier 11 seater\n* Audio speaker Bose\n* Camera 360\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 559 jt nego\nOTR khusus kredit : 529 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Sept 2026\n* Type Premier 11 seater\n* Audio speaker Bose\n* Camera 360\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-11T22:47:06+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945221219",
     image: "/images/olx-945221219/photo-1.jpg",
     images: [
@@ -423,7 +434,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Juni 2026",
-    description: "OTR cash : 650 Jt nego\nOTR khusus credit : 625 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juni 2026\n* Full body kit Modellista\n* TV Android\n* Jok kulit asli\n* Kunci ada 2\n* Service record bengkel resmi \n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 650 Jt nego\nOTR khusus credit : 625 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juni 2026\n* Full body kit Modellista\n* TV Android\n* Jok kulit asli\n* Kunci ada 2\n* Service record bengkel resmi \n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-11T22:39:19+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945221115",
     image: "/images/olx-945221115/photo-1.jpg",
     images: [
@@ -458,7 +470,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Juni 2026",
-    description: "OTR cash : 305 jt nego\nOTR khusus kredit : 288 jt   (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Juni 2026\n* Thn 2018 model pertama FACELIFT\n* Service record bengkel resmi\n* Type tertinggi Royale\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\nKUALITAS & KEPUASAN KAMI UTAMAKAN\r\nJLN. PUNGKUR 199\r\nBANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 305 jt nego\nOTR khusus kredit : 288 jt   (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Juni 2026\n* Thn 2018 model pertama FACELIFT\n* Service record bengkel resmi\n* Type tertinggi Royale\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-11T21:59:59+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945220598",
     image: "/images/olx-945220598/photo-1.jpg",
     images: [
@@ -493,7 +506,8 @@ export const cars = [
     body: "Jeep",
     location: "Bandung (Plat D)",
     tax: "July 2026",
-    description: "OTR cash : 549 Jt nego\nOTR khusus credit : 529 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln July 2026\n* Kilometer rendah 52rb\n* Axle lock & Sway bar\n* Velg racing custom\n* Transmisi automatic 4x4\n* Kunci ada 2\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 549 Jt nego\nOTR khusus credit : 529 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln July 2026\n* Kilometer rendah 52rb\n* Axle lock & Sway bar\n* Velg racing custom\n* Transmisi automatic 4x4\n* Kunci ada 2\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-11T21:51:34+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945220484",
     image: "/images/olx-945220484/photo-1.jpg",
     images: [
@@ -532,7 +546,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Desember 2026",
-    description: "OTR cash : 195 Jt nego\nOTR khusus credit : 183 Jt (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Desember 2026\n* Kilometer rendah 79rb\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi \n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 199\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 195 Jt nego\nOTR khusus credit : 183 Jt (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Desember 2026\n* Kilometer rendah 79rb\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi \n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-11T21:43:29+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945220335",
     image: "/images/olx-945220335/photo-1.jpg",
     images: [
@@ -567,7 +582,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Januari 2027",
-    description: "OTR cash : 215 Jt nego\nOTR khusus credit : 205 Jt (*min tenor 4 & 5 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Januari 2027\n* Kilometer rendah 56rb\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 215 Jt nego\nOTR khusus credit : 205 Jt (*min tenor 4 & 5 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Januari 2027\n* Kilometer rendah 56rb\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-11T21:38:42+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945220252",
     image: "/images/olx-945220252/photo-1.jpg",
     images: [
@@ -603,7 +619,8 @@ export const cars = [
     body: "Sedan",
     location: "Bandung (Plat D)",
     tax: "Maret 2027",
-    description: "OTR cash : 249 jt nego\nOTR khusus kredit : 229 jt   (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Maret 2027\n* Sunroof\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 249 jt nego\nOTR khusus kredit : 229 jt   (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Maret 2027\n* Sunroof\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-10T09:54:40+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945178409",
     image: "/images/olx-945178409/photo-1.jpg",
     images: [
@@ -639,7 +656,8 @@ export const cars = [
     body: "Sedan",
     location: "Bandung (Plat D)",
     tax: "Nov 2026",
-    description: "* Plat D (Bandung)\r\n* Pajak on bln Nov 2026\n* Warna asli putih sesuai faktur\r\n* Transmisi automatic\r\n* Kondisi terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\nKUALITAS & KEPUASAN KAMI UTAMAKAN\r\nJLN. PUNGKUR 201\r\nBANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "* Plat D (Bandung)\n* Pajak on bln Nov 2026\n* Warna asli putih sesuai faktur\n* Transmisi automatic\n* Kondisi terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-10T09:50:22+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945178325",
     image: "/images/olx-945178325/photo-1.jpg",
     images: [
@@ -674,7 +692,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Agust 2026",
-    description: "OTR cash : 329 Jt nego\nOTR khusus credit : 299 Jt (*min tenor 4 & 5 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Agust 2026\n* Kilometer rendah 57rb\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 329 Jt nego\nOTR khusus credit : 299 Jt (*min tenor 4 & 5 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Agust 2026\n* Kilometer rendah 57rb\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-10T09:42:52+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945178154",
     image: "/images/olx-945178154/photo-1.jpg",
     images: [
@@ -710,7 +729,8 @@ export const cars = [
     body: "Hatchback",
     location: "Bandung (Plat D)",
     tax: "Sept 2026",
-    description: "OTR cash : 116 jt nego\nOTR khusus kredit : 108 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Sept 2026\n* Type tertinggi S Limited\n* Kunci smart key\n* Jok sdh dicover semi kulit\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 116 jt nego\nOTR khusus kredit : 108 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Sept 2026\n* Type tertinggi S Limited\n* Kunci smart key\n* Jok sdh dicover semi kulit\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-10T09:37:07+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945178018",
     image: "/images/olx-945178018/photo-1.jpg",
     images: [
@@ -743,7 +763,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Sept 2026",
-    description: "SERENA HWS AUTECH AT 2015 PANORAMIC\n\nOTR cash : 169 jt nego\nOTR khusus kredit : 158 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Sept 2026\n* Kilometer rendah\n* Panoramic\n* Type tertinggi Autech\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "SERENA HWS AUTECH AT 2015 PANORAMIC\n\nOTR cash : 169 jt nego\nOTR khusus kredit : 158 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Sept 2026\n* Kilometer rendah\n* Panoramic\n* Type tertinggi Autech\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-10T09:32:02+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945177906",
     image: "/images/olx-945177906/photo-1.jpg",
     images: [
@@ -780,7 +801,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Sept 2026",
-    description: "OTR cash : 248 Jt nego\nOTR khusus credit : 229 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Sept 2026\n* Service record bengkel resmi\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 248 Jt nego\nOTR khusus credit : 229 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Sept 2026\n* Service record bengkel resmi\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-10T09:19:36+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945177640",
     image: "/images/olx-945177640/photo-1.jpg",
     images: [
@@ -814,7 +836,8 @@ export const cars = [
     body: "Sedan",
     location: "Bandung (Plat D)",
     tax: "Desember 2026",
-    description: "OTR cash : 189 jt nego\nOTR khusus kredit : 173 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Desember 2026\n* Kilometer rendah 53rb\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 189 jt nego\nOTR khusus kredit : 173 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Desember 2026\n* Kilometer rendah 53rb\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-10T09:14:08+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945177510",
     image: "/images/olx-945177510/photo-1.jpg",
     images: [
@@ -850,7 +873,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Mei 2027",
-    description: "OTR cash : 179 jt nego\nOTR khusus kredit : 165 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Mei 2027\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 179 jt nego\nOTR khusus kredit : 165 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Mei 2027\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-10T09:07:45+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945177375",
     image: "/images/olx-945177375/photo-1.jpg",
     images: [
@@ -884,7 +908,8 @@ export const cars = [
     body: "Sedan",
     location: "Bandung (Plat D)",
     tax: "Agust 2026",
-    description: "OTR cash : 278 jt nego\nOTR khusus kredit : 259 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Agust 2026\n* Kilometer low 53rb bukan miles\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 278 jt nego\nOTR khusus kredit : 259 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Agust 2026\n* Kilometer low 53rb bukan miles\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-10T09:03:40+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945177293",
     image: "/images/olx-945177293/photo-1.jpg",
     images: [
@@ -920,7 +945,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Peb 2027",
-    description: "OTR cash : 148 Jt nego\nOTR khusus credit : 136 Jt (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Peb 2027\n* Kilometer rendah \n* Buku service & manual book lengkap\n* Service record bengkel resmi\n* Kunci serep ada\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 148 Jt nego\nOTR khusus credit : 136 Jt (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Peb 2027\n* Kilometer rendah \n* Buku service & manual book lengkap\n* Service record bengkel resmi\n* Kunci serep ada\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-09T15:08:26+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945163081",
     image: "/images/olx-945163081/photo-1.jpg",
     images: [
@@ -956,7 +982,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Pebruari 2027",
-    description: "* Plat D (Bandung)\n* Pajak on bln Pebruari 2027\n* AC Doubel blower\n* Kunci ada 2\n* Service record bengkel resmi \n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "* Plat D (Bandung)\n* Pajak on bln Pebruari 2027\n* AC Doubel blower\n* Kunci ada 2\n* Service record bengkel resmi \n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-09T15:04:36+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945162983",
     image: "/images/olx-945162983/photo-1.jpg",
     images: [
@@ -990,7 +1017,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Pebruari 2027",
-    description: "OTR cash : 239 Jt nego\nOTR khusus credit : 225 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Pebruari 2027\n* Jok kulit full electrik\n* Captain seat\n* Kunci ada 2\n* Service record bengkel resmi \n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 239 Jt nego\nOTR khusus credit : 225 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Pebruari 2027\n* Jok kulit full electrik\n* Captain seat\n* Kunci ada 2\n* Service record bengkel resmi \n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-06T15:05:25+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945086786",
     image: "/images/olx-945086786/photo-1.jpg",
     images: [
@@ -1022,7 +1050,8 @@ export const cars = [
     body: "Hatchback",
     location: "Bandung (Plat D)",
     tax: "Desember 2026",
-    description: "OTR Cash : 265 Jt nego\nOTR khusus Credit : 249 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Desember 2026\n* Buku service & service record lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\nKUALITAS & KEPUASAN KAMI UTAMAKAN\r\nJLN. PUNGKUR 201\r\nBANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR Cash : 265 Jt nego\nOTR khusus Credit : 249 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Desember 2026\n* Buku service & service record lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-06T15:02:07+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945086680",
     image: "/images/olx-945086680/photo-1.jpg",
     images: [
@@ -1057,7 +1086,8 @@ export const cars = [
     body: "Hatchback",
     location: "Bandung (Plat D)",
     tax: "Maret 2027",
-    description: "OTR cash : 179 jt nego\nOTR khusus kredit : 168 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Maret 2027\n* Sunroof\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 179 jt nego\nOTR khusus kredit : 168 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Maret 2027\n* Sunroof\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-06T13:45:28+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945083981",
     image: "/images/olx-945083981/photo-1.jpg",
     images: [
@@ -1093,7 +1123,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Pebruari 2027",
-    description: "OTR cash : 447 jt nego\nOTR khusus kredit : 426 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Pebruari 2027\n* Panoramic Sunroof\n* Type 1.5 turbo Prestige\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 447 jt nego\nOTR khusus kredit : 426 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Pebruari 2027\n* Panoramic Sunroof\n* Type 1.5 turbo Prestige\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-06T13:41:40+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945083835",
     image: "/images/olx-945083835/photo-1.jpg",
     images: [
@@ -1128,7 +1159,8 @@ export const cars = [
     body: "Hatchback",
     location: "Bandung (Plat D)",
     tax: "Januari 2027",
-    description: "OTR cash : 193 Jt nego\nOTR khusus credit : 179,9 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Januari 2027\n* Kilometer rendah 9rb\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi manual\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 193 Jt nego\nOTR khusus credit : 179,9 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Januari 2027\n* Kilometer rendah 9rb\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi manual\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-05T22:02:05+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945067249",
     image: "/images/olx-945067249/photo-1.jpg",
     images: [
@@ -1164,7 +1196,8 @@ export const cars = [
     body: "Sedan",
     location: "Bandung (Plat D)",
     tax: "Desember 2026",
-    description: "OTR cash : 209 jt nego\nOTR khusus kredit : 193 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Desember 2026\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 209 jt nego\nOTR khusus kredit : 193 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Desember 2026\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-05T21:52:22+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945067054",
     image: "/images/olx-945067054/photo-1.jpg",
     images: [
@@ -1198,7 +1231,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Mei 2027",
-    description: "OTR cash : 379 jt nego\nOTR khusus kredit : 359 jt   (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Mei 2027\n* Buku service & manual book lengkap\n* Jok kulit ori\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 379 jt nego\nOTR khusus kredit : 359 jt   (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Mei 2027\n* Buku service & manual book lengkap\n* Jok kulit ori\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-05T15:54:56+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945058684",
     image: "/images/olx-945058684/photo-1.jpg",
     images: [
@@ -1234,7 +1268,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Januari 2027",
-    description: "OTR cash : 359 jt nego\nOTR khusus kredit : 345 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Januari 2027\n* Kilometer rendah 50rb\n* Buku service & manual book lengkap\n* Jok kulit ori\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 359 jt nego\nOTR khusus kredit : 345 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Januari 2027\n* Kilometer rendah 50rb\n* Buku service & manual book lengkap\n* Jok kulit ori\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-05T15:48:57+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945058493",
     image: "/images/olx-945058493/photo-1.jpg",
     images: [
@@ -1270,7 +1305,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Mei 2027",
-    description: "OTR cash : 265 jt nego\nOTR khusus kredit : 245 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Mei 2027\n* Service record bengkel resmi\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 265 jt nego\nOTR khusus kredit : 245 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Mei 2027\n* Service record bengkel resmi\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-05T12:40:15+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945052630",
     image: "/images/olx-945052630/photo-1.jpg",
     images: [
@@ -1305,7 +1341,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Juli 2026",
-    description: "OTR cash : 175 Jt nego\nOTR khusus credit : 159 Jt (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Juli 2026\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 175 Jt nego\nOTR khusus credit : 159 Jt (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Juli 2026\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-05T12:26:53+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945052238",
     image: "/images/olx-945052238/photo-1.jpg",
     images: [
@@ -1341,7 +1378,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Oktober 2026",
-    description: "OTR cash : 299 Jt nego\nOTR khusus credit : 286 Jt (*min tenor 4 & 5 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Oktober 2026\n* Kilometer rendah 49rb\n* Kunci ada 2\n* Buku service & manual book lengkap\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 299 Jt nego\nOTR khusus credit : 286 Jt (*min tenor 4 & 5 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Oktober 2026\n* Kilometer rendah 49rb\n* Kunci ada 2\n* Buku service & manual book lengkap\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-05T12:22:12+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945052093",
     image: "/images/olx-945052093/photo-1.jpg",
     images: [
@@ -1377,7 +1415,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Maret 2027",
-    description: "OTR cash : 156 jt nego\nOTR khusus kredit : 143 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Maret 2027\n* Type Skyactiv\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 156 jt nego\nOTR khusus kredit : 143 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Maret 2027\n* Type Skyactiv\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-05T12:17:10+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945051932",
     image: "/images/olx-945051932/photo-1.jpg",
     images: [
@@ -1413,7 +1452,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Okt 2026",
-    description: "OTR cash : 219 Jt nego\nOTR khusus credit : 205 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Okt 2026\n* Kilometer rendah 53rb\n* Panoramic Sunroof\n* Service record bengkel resmi Mitsubishi\n* Kunci ada 2\n* Buku service & manual book lengkap\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 219 Jt nego\nOTR khusus credit : 205 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Okt 2026\n* Kilometer rendah 53rb\n* Panoramic Sunroof\n* Service record bengkel resmi Mitsubishi\n* Kunci ada 2\n* Buku service & manual book lengkap\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-05T12:12:22+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945051750",
     image: "/images/olx-945051750/photo-1.jpg",
     images: [
@@ -1448,7 +1488,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Maret 2027",
-    description: "OTR cash : 405 jt nego\nOTR khusus kredit : 389 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Kilometer rendah\n* Pajak on bln Maret 2027\n* Sunroof\n* Kunci ada 2\n* Service record bengkel resmi mitsubishi\n* Buku service & manual book lengkap\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 405 jt nego\nOTR khusus kredit : 389 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Kilometer rendah\n* Pajak on bln Maret 2027\n* Sunroof\n* Kunci ada 2\n* Service record bengkel resmi mitsubishi\n* Buku service & manual book lengkap\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-04T11:00:20+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945023992",
     image: "/images/olx-945023992/photo-1.jpg",
     images: [
@@ -1484,7 +1525,8 @@ export const cars = [
     body: "Hatchback",
     location: "Bandung (Plat D)",
     tax: "Mei 2027",
-    description: "Otr cash  : 189 jt nego\nOtr khusus kredit : 175 jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Mei 2027\n* Kilometer rendah\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\n* Harga cash nego\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "Otr cash  : 189 jt nego\nOtr khusus kredit : 175 jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Mei 2027\n* Kilometer rendah\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n* Harga cash nego\n*",
+    addedAt: "2026-05-03T11:51:16+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945002249",
     image: "/images/olx-945002249/photo-1.jpg",
     images: [
@@ -1519,7 +1561,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Sept 2026",
-    description: "OTR cash : 279 Jt nego\nOTR khusus credit : 265 Jt (*min tenor 4 & 5 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Sept 2026\n* Kunci ada 2\n* Buku service & manual book lengkap\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 279 Jt nego\nOTR khusus credit : 265 Jt (*min tenor 4 & 5 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Sept 2026\n* Kunci ada 2\n* Buku service & manual book lengkap\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-03T10:27:56+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945000112",
     image: "/images/olx-945000112/photo-1.jpg",
     images: [
@@ -1555,7 +1598,8 @@ export const cars = [
     body: "Hatchback",
     location: "Bandung (Plat D)",
     tax: "Mei 2027",
-    description: "Otr cash  : 193 jt nego\nOtr khusus kredit : 179,9 jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Mei 2027\n* Kilometer rendah\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\n* Harga cash nego\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "Otr cash  : 193 jt nego\nOtr khusus kredit : 179,9 jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Mei 2027\n* Kilometer rendah\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n* Harga cash nego\n*",
+    addedAt: "2026-05-01T14:34:17+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944959936",
     image: "/images/olx-944959936/photo-1.jpg",
     images: [
@@ -1588,7 +1632,8 @@ export const cars = [
     body: "Compact & City Car",
     location: "Bandung (Plat D)",
     tax: "April 2027",
-    description: "OTR cash : 179 jt nego\nOTR khusus kredit : 169,9 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln April 2027\n* Kilometer rendah 26rb\n* Type tertinggi RS\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 179 jt nego\nOTR khusus kredit : 169,9 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln April 2027\n* Kilometer rendah 26rb\n* Type tertinggi RS\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-01T14:29:31+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944959798",
     image: "/images/olx-944959798/photo-1.jpg",
     images: [
@@ -1622,7 +1667,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Maret 2026",
-    description: "OTR cash : 405 jt nego\nOTR khusus kredit : 389 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Kilometer rendah 40rb\n* Pajak on bln Maret 2026\n* Sunroof\n* Kunci ada 2\n* Service record bengkel resmi mitsubishi\n* Buku service & manual book lengkap\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 405 jt nego\nOTR khusus kredit : 389 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Kilometer rendah 40rb\n* Pajak on bln Maret 2026\n* Sunroof\n* Kunci ada 2\n* Service record bengkel resmi mitsubishi\n* Buku service & manual book lengkap\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-01T14:13:40+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944959383",
     image: "/images/olx-944959383/photo-1.jpg",
     images: [
@@ -1659,7 +1705,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Sept 2026",
-    description: "OTR cash : 269 jt nego\nOTR khusus kredit : 253 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Kilometer rendah 61rb\n* Pajak on bln Sept 2026\n* Sunroof\n* Kunci ada 2\n* Service record bengkel resmi mazda\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 269 jt nego\nOTR khusus kredit : 253 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Kilometer rendah 61rb\n* Pajak on bln Sept 2026\n* Sunroof\n* Kunci ada 2\n* Service record bengkel resmi mazda\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-29T11:52:52+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944905132",
     image: "/images/olx-944905132/photo-1.jpg",
     images: [
@@ -1693,7 +1740,8 @@ export const cars = [
     body: "Compact & City Car",
     location: "Bandung (Plat D)",
     tax: "Januari 2027",
-    description: "OTR Cash : 103 Jt nego\nOTR khusus Credit : 95 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Januari 2027\n* Kilometer rendah 73rb\n* Kunci ada 2\n* Buku service & manual book lengkap\n* Transmisi manual\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\nKUALITAS & KEPUASAN KAMI UTAMAKAN\r\nJLN. PUNGKUR 199\r\nBANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR Cash : 103 Jt nego\nOTR khusus Credit : 95 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Januari 2027\n* Kilometer rendah 73rb\n* Kunci ada 2\n* Buku service & manual book lengkap\n* Transmisi manual\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-28T23:16:14+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944895584",
     image: "/images/olx-944895584/photo-1.jpg",
     images: [
@@ -1728,7 +1776,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Juni 2026",
-    description: "OTR cash : 229 jt nego\nOTR khusus kredit : 216 jt (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Juni 2026\n* Service record bengkel resmi \n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 229 jt nego\nOTR khusus kredit : 216 jt (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Juni 2026\n* Service record bengkel resmi \n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-28T23:10:46+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944895530",
     image: "/images/olx-944895530/photo-1.jpg",
     images: [
@@ -1764,7 +1813,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Pebruari 2027",
-    description: "OTR cash : 173 jt nego\nOTR khusus kredit : 159 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Kilometer rendah 60rb\n* Pajak on bln Pebruari 2027\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 173 jt nego\nOTR khusus kredit : 159 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Kilometer rendah 60rb\n* Pajak on bln Pebruari 2027\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-28T23:06:24+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944895477",
     image: "/images/olx-944895477/photo-1.jpg",
     images: [
@@ -1800,7 +1850,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Des 2026",
-    description: "OTR cash : 255 jt nego\nOTR khusus kredit : 239 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Des 2026\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Type HWS Two tone\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 255 jt nego\nOTR khusus kredit : 239 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Des 2026\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Type HWS Two tone\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-28T23:01:36+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944895423",
     image: "/images/olx-944895423/photo-1.jpg",
     images: [
@@ -1835,7 +1886,8 @@ export const cars = [
     body: "Double Cabin",
     location: "Bandung (Plat D)",
     tax: "Mei 2027",
-    description: "Otr cash  : 233 jt nego\nOtr khusus kredit : 218 jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Mei 2027\n* Transmisi manual 4x4\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\n* Harga cash nego\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "Otr cash  : 233 jt nego\nOtr khusus kredit : 218 jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Mei 2027\n* Transmisi manual 4x4\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n* Harga cash nego\n*",
+    addedAt: "2026-04-28T22:31:37+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944895096",
     image: "/images/olx-944895096/photo-1.jpg",
     images: [
@@ -1871,7 +1923,8 @@ export const cars = [
     body: "Hatchback",
     location: "Bandung (Plat D)",
     tax: "Juni 2026",
-    description: "OTR cash : 118 jt nego\nOTR khusus kredit : 109 jt   (*min tenor 3 & 4 thn)\n\n* Plat B (Cikarang)\n* Pajak on bln Juni 2026\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 118 jt nego\nOTR khusus kredit : 109 jt   (*min tenor 3 & 4 thn)\n\n* Plat B (Cikarang)\n* Pajak on bln Juni 2026\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-28T22:14:59+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944894845",
     image: "/images/olx-944894845/photo-1.jpg",
     images: [
@@ -1904,7 +1957,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Agust 2026",
-    description: "OTR Cash : 199 Jt nego\nOTR khusus Credit : 188 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Agust 2026\n* Kilometer rendah 35rb\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi manual\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\nKUALITAS & KEPUASAN KAMI UTAMAKAN\r\nJLN. PUNGKUR 201\r\nBANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR Cash : 199 Jt nego\nOTR khusus Credit : 188 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Agust 2026\n* Kilometer rendah 35rb\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi manual\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-27T22:27:08+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944870015",
     image: "/images/olx-944870015/photo-1.jpg",
     images: [
@@ -1939,7 +1993,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Nov 2026",
-    description: "OTR cash : 167 jt nego\nOTR khusus kredit : 156 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Nov 2026\n* Ac Double blower\n* Type tertinggi otomatis double sliding door\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 167 jt nego\nOTR khusus kredit : 156 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Nov 2026\n* Ac Double blower\n* Type tertinggi otomatis double sliding door\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-27T22:22:29+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944869960",
     image: "/images/olx-944869960/photo-1.jpg",
     images: [
@@ -1974,7 +2029,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Agust 2026",
-    description: "OTR cash : 638 jt nego\nOTR khusus kredit : 599 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Agust 2026\n* Kilometer rendah\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 638 jt nego\nOTR khusus kredit : 599 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Agust 2026\n* Kilometer rendah\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-27T22:12:26+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944869832",
     image: "/images/olx-944869832/photo-1.jpg",
     images: [
@@ -2006,7 +2062,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Oktober 2026",
-    description: "OTR cash : 353 Jt nego\nOTR khusus credit : 339 Jt (*min tenor 4 & 5 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Oktober 2026\n* Service record bengkel resmi\n* Grill dpn dikasih double dgn ori\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 353 Jt nego\nOTR khusus credit : 339 Jt (*min tenor 4 & 5 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Oktober 2026\n* Service record bengkel resmi\n* Grill dpn dikasih double dgn ori\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-27T20:54:57+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944868622",
     image: "/images/olx-944868622/photo-1.jpg",
     images: [
@@ -2041,7 +2098,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "April 2027",
-    description: "OTR cash : 329 jt nego\nOTR khusus kredit : 309 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln April 2027\n* Odo low 39rb\n* Panoramic Sunroof\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 329 jt nego\nOTR khusus kredit : 309 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln April 2027\n* Odo low 39rb\n* Panoramic Sunroof\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-25T19:46:55+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944819126",
     image: "/images/olx-944819126/photo-1.jpg",
     images: [
@@ -2075,7 +2133,8 @@ export const cars = [
     body: "Hatchback",
     location: "Bandung (Plat D)",
     tax: "Juni 2026",
-    description: "OTR cash : 115 jt nego\nOTR khusus kredit : 106 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juni 2026\n* Kilometer rendah 89rb\n* Type tertinggi S Limited\n* Kunci smart key\n* Jok sdh dicover semi kulit\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 115 jt nego\nOTR khusus kredit : 106 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juni 2026\n* Kilometer rendah 89rb\n* Type tertinggi S Limited\n* Kunci smart key\n* Jok sdh dicover semi kulit\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-25T19:30:29+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944818790",
     image: "/images/olx-944818790/photo-1.jpg",
     images: [
@@ -2111,7 +2170,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Juni 2026",
-    description: "OTR cash : 116 jt nego\nOTR khusus kredit : 106 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juni 2026\n* Thn 2011 model pertama FACELIFT\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 116 jt nego\nOTR khusus kredit : 106 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juni 2026\n* Thn 2011 model pertama FACELIFT\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-25T11:10:16+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944804850",
     image: "/images/olx-944804850/photo-1.jpg",
     images: [
@@ -2145,7 +2205,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "April 2027",
-    description: "OTR cash : 325 Jt nego\nOTR khusus credit : 309 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln April 2027\n* Kilometer rendah 38rb\n* Service record bengkel resmi Honda\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 325 Jt nego\nOTR khusus credit : 309 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln April 2027\n* Kilometer rendah 38rb\n* Service record bengkel resmi Honda\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-24T15:47:36+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944786923",
     image: "/images/olx-944786923/photo-1.jpg",
     images: [
@@ -2182,7 +2243,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Juli 2026",
-    description: "OTR cash : 188 Jt nego\nOTR khusus credit : 178 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juli 2026\n* Service record bengkel resmi\n* Buku service & manual book lengkap\n* Transmisi manual\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 188 Jt nego\nOTR khusus credit : 178 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juli 2026\n* Service record bengkel resmi\n* Buku service & manual book lengkap\n* Transmisi manual\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-24T15:15:46+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944785882",
     image: "/images/olx-944785882/photo-1.jpg",
     images: [
@@ -2217,7 +2279,8 @@ export const cars = [
     body: "Sedan",
     location: "Bandung (Plat D)",
     tax: "Maret 2027",
-    description: "OTR cash : 238 jt nego\nOTR khusus kredit : 219 jt   (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Maret 2027\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 238 jt nego\nOTR khusus kredit : 219 jt   (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Maret 2027\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-21T22:10:52+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944714421",
     image: "/images/olx-944714421/photo-1.jpg",
     images: [
@@ -2252,7 +2315,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Nov 2026",
-    description: "OTR cash : 196 Jt nego\nOTR khusus credit : 186 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Nov 2026\n* Kilometer rendah 44rb\n* Service record bengkel resmi\n* Buku service & manual book lengkap\n* Transmisi manual\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 196 Jt nego\nOTR khusus credit : 186 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Nov 2026\n* Kilometer rendah 44rb\n* Service record bengkel resmi\n* Buku service & manual book lengkap\n* Transmisi manual\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-19T09:31:47+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944644890",
     image: "/images/olx-944644890/photo-1.jpg",
     images: [
@@ -2287,7 +2351,8 @@ export const cars = [
     body: "Coupe",
     location: "Bandung (Plat D)",
     tax: "Januari 2027",
-    description: "MINI COOPER BAYSWATER LIMITED EDITION ( RARE )\n\nOTR cash : 399 Jt nego\nOTR khusus credit : 369 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Januari 2027\n* Panoramic Sunroof\n* Kilometer rendah 60rb\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "MINI COOPER BAYSWATER LIMITED EDITION ( RARE )\n\nOTR cash : 399 Jt nego\nOTR khusus credit : 369 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Januari 2027\n* Panoramic Sunroof\n* Kilometer rendah 60rb\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-19T08:49:34+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944644051",
     image: "/images/olx-944644051/photo-1.jpg",
     images: [
@@ -2323,7 +2388,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Nov 2026",
-    description: "OTR cash : 165 Jt nego\nOTR khusus credit : 153 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Nov 2026\n* Kilometer rendah\n* AC sdh Double blower\n* Type tertinggi PSD\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 165 Jt nego\nOTR khusus credit : 153 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Nov 2026\n* Kilometer rendah\n* AC sdh Double blower\n* Type tertinggi PSD\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-17T17:02:34+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944607717",
     image: "/images/olx-944607717/photo-1.jpg",
     images: [
@@ -2359,7 +2425,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Juni 2026",
-    description: "OTR cash : 356 Jt nego\nOTR khusus credit : 339 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juni 2026\n* Kilometer rendah\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 356 Jt nego\nOTR khusus credit : 339 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juni 2026\n* Kilometer rendah\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-17T16:58:32+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944607630",
     image: "/images/olx-944607630/photo-1.jpg",
     images: [
@@ -2396,7 +2463,8 @@ export const cars = [
     body: "Sedan",
     location: "Bandung (Plat D)",
     tax: "Pebruari 2027",
-    description: "OTR cash : 318 Jt nego\nOTR khusus credit : 299 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Pebruari 2027\n* Kilometer rendah 85rb\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 318 Jt nego\nOTR khusus credit : 299 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Pebruari 2027\n* Kilometer rendah 85rb\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-16T18:25:56+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944584285",
     image: "/images/olx-944584285/photo-1.jpg",
     images: [
@@ -2431,7 +2499,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Des 2026",
-    description: "OTR cash : 179 jt nego\nOTR khusus kredit : 165 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Des 2026\n* Type EX mesin diesel (rare)\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 179 jt nego\nOTR khusus kredit : 165 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Des 2026\n* Type EX mesin diesel (rare)\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-16T17:17:32+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944582820",
     image: "/images/olx-944582820/photo-1.jpg",
     images: [
@@ -2465,7 +2534,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "April 2027",
-    description: "OTR cash : 253 Jt nego\nOTR khusus credit : 239 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln April 2027\n* Kilometer rendah 64rb\n* Service record bengkel resmi\n* Kunci ada 2\n* Buku service & manual book lengkap\n* Transmisi manual\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 253 Jt nego\nOTR khusus credit : 239 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln April 2027\n* Kilometer rendah 64rb\n* Service record bengkel resmi\n* Kunci ada 2\n* Buku service & manual book lengkap\n* Transmisi manual\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-16T15:28:20+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944579412",
     image: "/images/olx-944579412/photo-1.jpg",
     images: [
@@ -2501,7 +2571,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Des 2026",
-    description: "OTR cash : 278 Jt nego\nOTR khusus credit : 259 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Des 2026\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 278 Jt nego\nOTR khusus credit : 259 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Des 2026\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-16T15:22:40+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944579237",
     image: "/images/olx-944579237/photo-1.jpg",
     images: [
@@ -2537,7 +2608,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Juni 2026",
-    description: "OTR cash : 239 Jt nego\nOTR khusus credit : 225 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juni 2026\n* Service record bengkel resmi \n* Buku service & manual book lengkap\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 239 Jt nego\nOTR khusus credit : 225 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juni 2026\n* Service record bengkel resmi \n* Buku service & manual book lengkap\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-16T15:19:33+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944579125",
     image: "/images/olx-944579125/photo-1.jpg",
     images: [
@@ -2572,7 +2644,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Sept 2026",
-    description: "OTR cash : 559 Jt nego\nOTR khusus credit : 529 Jt (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Sept 2026\n* Service record bengkel resmi\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 559 Jt nego\nOTR khusus credit : 529 Jt (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Sept 2026\n* Service record bengkel resmi\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-16T14:15:40+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944577003",
     image: "/images/olx-944577003/photo-1.jpg",
     images: [
@@ -2607,7 +2680,8 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "Okt 2026",
-    description: "OTR cash : 243 Jt nego\nOTR khusus credit : 229 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Okt 2026\n* Service record bengkel resmi\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 243 Jt nego\nOTR khusus credit : 229 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Okt 2026\n* Service record bengkel resmi\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-16T14:09:44+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944576802",
     image: "/images/olx-944576802/photo-1.jpg",
     images: [
@@ -2644,7 +2718,8 @@ export const cars = [
     body: "Hatchback",
     location: "Bandung (Plat D)",
     tax: "April 2027",
-    description: "OTR cash : 295 Jt nego\nOTR khusus credit : 279 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln April 2027\n* Kilometer rendah 62rb\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 295 Jt nego\nOTR khusus credit : 279 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln April 2027\n* Kilometer rendah 62rb\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-16T13:57:05+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944576383",
     image: "/images/olx-944576383/photo-1.jpg",
     images: [
@@ -2679,7 +2754,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Agust 2026",
-    description: "OTR cash : 346 Jt nego\nOTR khusus credit : 329 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Agust 2026\n* Kilometer rendah 65rb\n* Panoramic Sunroof\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi Honda\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 346 Jt nego\nOTR khusus credit : 329 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Agust 2026\n* Kilometer rendah 65rb\n* Panoramic Sunroof\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi Honda\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-16T13:47:35+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944576069",
     image: "/images/olx-944576069/photo-1.jpg",
     images: [
@@ -2716,7 +2792,8 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Juli 2026",
-    description: "OTR cash : 153 Jt nego\nOTR khusus credit : 139 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juli 2026\n* Kilometer rendah 87rb\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\r\n* Cash atau credit\r\n* Terima tukar tambah\r\n* Dokumen dijamin lengkap & asli\r\n* Showroom Terpercaya\r\n\r\nKUNJUNGI LANGSUNG :\r\n**BINTANG MOTOR\r\n   KUALITAS & KEPUASAN KAMI UTAMAKAN\r\n   JLN. PUNGKUR 201\r\n   BANDUNG 40251\r\n\r\nBuka setiap hari :\nsenin - sabtu jam 08.00 - 17.30\nminggu          jam 08.30 - 15.00",
+    description: "OTR cash : 153 Jt nego\nOTR khusus credit : 139 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juli 2026\n* Kilometer rendah 87rb\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-04-16T13:36:55+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-944575740",
     image: "/images/olx-944575740/photo-1.jpg",
     images: [

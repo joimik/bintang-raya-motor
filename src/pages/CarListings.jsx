@@ -1,103 +1,189 @@
-import React, { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import CarCard from '../components/CarCard';
 import { cars } from '../data/cars';
-import { Search, Filter } from 'lucide-react';
+import { Search, X } from 'lucide-react';
 import './CarListings.css';
 
+const PAGE_SIZE = 12;
+
+const PRICE_BUCKETS = [
+  { key: 'all', label: 'Semua Harga', match: () => true },
+  { key: 'u100', label: '< 100jt', match: (c) => c.price > 0 && c.price < 100_000_000 },
+  { key: '100-200', label: '100–200jt', match: (c) => c.price >= 100_000_000 && c.price < 200_000_000 },
+  { key: '200-400', label: '200–400jt', match: (c) => c.price >= 200_000_000 && c.price < 400_000_000 },
+  { key: 'o400', label: '> 400jt', match: (c) => c.price >= 400_000_000 },
+];
+
+const SORTS = [
+  { key: 'newest', label: 'Terbaru Masuk', cmp: (a, b) => new Date(b.addedAt || 0) - new Date(a.addedAt || 0) },
+  { key: 'cheapest', label: 'Termurah', cmp: (a, b) => (a.price || Infinity) - (b.price || Infinity) },
+  { key: 'priciest', label: 'Termahal', cmp: (a, b) => (b.price || 0) - (a.price || 0) },
+  { key: 'year-new', label: 'Tahun Terbaru', cmp: (a, b) => (b.year || 0) - (a.year || 0) },
+  { key: 'year-old', label: 'Tahun Tertua', cmp: (a, b) => (a.year || 9999) - (b.year || 9999) },
+];
+
 export default function CarListings() {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [filterBrand, setFilterBrand] = useState('All');
-  const [filterPrice, setFilterPrice] = useState('All');
-  const [filterYear, setFilterYear] = useState('All');
-  const [filterTransmission, setFilterTransmission] = useState('All');
+  const [search, setSearch] = useState('');
+  const [brand, setBrand] = useState('all');
+  const [transmission, setTransmission] = useState('all');
+  const [priceBucket, setPriceBucket] = useState('all');
+  const [sortKey, setSortKey] = useState('newest');
+  const [page, setPage] = useState(1);
 
-  const brands = ['All', ...new Set(cars.map(car => car.brand))];
-  const years = ['All', ...new Set(cars.map(car => car.year))].sort((a,b) => b-a);
-  const transmissions = ['All', ...new Set(cars.map(car => car.transmission))];
+  const brands = useMemo(
+    () => ['all', ...Array.from(new Set(cars.map((c) => c.brand))).sort()],
+    []
+  );
+  const transmissions = useMemo(
+    () => ['all', ...Array.from(new Set(cars.map((c) => c.transmission).filter(Boolean)))],
+    []
+  );
 
-  const filteredCars = cars.filter(car => {
-    const matchesSearch = car.name.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesBrand = filterBrand === 'All' || car.brand === filterBrand;
-    const matchesYear = filterYear === 'All' || car.year.toString() === filterYear.toString();
-    const matchesTransmission = filterTransmission === 'All' || car.transmission === filterTransmission;
-    
-    let matchesPrice = true;
-    if (filterPrice === 'Under 100M') matchesPrice = car.price < 100000000;
-    else if (filterPrice === '100M - 150M') matchesPrice = car.price >= 100000000 && car.price <= 150000000;
-    else if (filterPrice === 'Over 150M') matchesPrice = car.price > 150000000;
+  const filtered = useMemo(() => {
+    const q = search.trim().toLowerCase();
+    const bucket = PRICE_BUCKETS.find((b) => b.key === priceBucket);
+    const list = cars.filter((c) => {
+      if (q && !c.name.toLowerCase().includes(q) && !(c.brand || '').toLowerCase().includes(q)) return false;
+      if (brand !== 'all' && c.brand !== brand) return false;
+      if (transmission !== 'all' && c.transmission !== transmission) return false;
+      if (!bucket.match(c)) return false;
+      return true;
+    });
+    const sort = SORTS.find((s) => s.key === sortKey) || SORTS[0];
+    return [...list].sort(sort.cmp);
+  }, [search, brand, transmission, priceBucket, sortKey]);
 
-    return matchesSearch && matchesBrand && matchesYear && matchesTransmission && matchesPrice;
-  });
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  const safePage = Math.min(page, totalPages);
+  const pageItems = filtered.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE);
+
+  React.useEffect(() => {
+    setPage(1);
+  }, [search, brand, transmission, priceBucket, sortKey]);
+
+  const resetAll = () => {
+    setSearch('');
+    setBrand('all');
+    setTransmission('all');
+    setPriceBucket('all');
+    setSortKey('newest');
+  };
+
+  const hasFilter =
+    search || brand !== 'all' || transmission !== 'all' || priceBucket !== 'all' || sortKey !== 'newest';
 
   return (
     <div className="car-listings py-5">
       <div className="container">
-        <div className="listings-header text-center">
-          <h1 className="mb-4">Katalog Mobil Bekas</h1>
-          <p className="text-muted">Temukan mobil pilihan Anda dengan harga terbaik dan kualitas terjamin.</p>
+        <div className="listings-header">
+          <h1>Katalog Mobil Bekas</h1>
+          <p>
+            {filtered.length} dari {cars.length} mobil tersedia di showroom Bandung kami.
+          </p>
         </div>
 
-        <div className="filter-bar border-radius shadow-sm">
+        <div className="filter-bar">
           <div className="search-box">
-            <Search size={20} className="icon-search" />
-            <input 
-              type="text" 
-              placeholder="Cari nama mobil..." 
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+            <Search size={18} className="icon-search" />
+            <input
+              type="text"
+              placeholder="Cari merek atau nama mobil..."
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
             />
+            {search && (
+              <button className="clear-search" onClick={() => setSearch('')} aria-label="Clear">
+                <X size={16} />
+              </button>
+            )}
           </div>
-          
-          <div className="filters">
-            <div className="filter-group">
-              <label><Filter size={16}/> Merek:</label>
-              <select value={filterBrand} onChange={(e) => setFilterBrand(e.target.value)}>
-                {brands.map(brand => (
-                  <option key={brand} value={brand}>{brand}</option>
-                ))}
-              </select>
-            </div>
-            
-            <div className="filter-group">
-              <label><Filter size={16}/> Tahun:</label>
-              <select value={filterYear} onChange={(e) => setFilterYear(e.target.value)}>
-                {years.map(year => (
-                  <option key={year} value={year}>{year}</option>
-                ))}
-              </select>
-            </div>
 
-            <div className="filter-group">
-              <label><Filter size={16}/> Transmisi:</label>
-              <select value={filterTransmission} onChange={(e) => setFilterTransmission(e.target.value)}>
-                {transmissions.map(trans => (
-                  <option key={trans} value={trans}>{trans === 'All' ? 'Semua' : trans}</option>
-                ))}
-              </select>
-            </div>
-            
-            <div className="filter-group">
-              <label><Filter size={16}/> Harga:</label>
-              <select value={filterPrice} onChange={(e) => setFilterPrice(e.target.value)}>
-                <option value="All">Semua Harga</option>
-                <option value="Under 100M">Di bawah Rp 100 Juta</option>
-                <option value="100M - 150M">Rp 100 Juta - Rp 150 Juta</option>
-                <option value="Over 150M">Di atas Rp 150 Juta</option>
-              </select>
-            </div>
+          <div className="filter-controls">
+            <select value={brand} onChange={(e) => setBrand(e.target.value)} className="select-chip">
+              {brands.map((b) => (
+                <option key={b} value={b}>
+                  {b === 'all' ? 'Semua Merek' : b}
+                </option>
+              ))}
+            </select>
+
+            <select
+              value={transmission}
+              onChange={(e) => setTransmission(e.target.value)}
+              className="select-chip"
+            >
+              {transmissions.map((t) => (
+                <option key={t} value={t}>
+                  {t === 'all' ? 'Semua Transmisi' : t}
+                </option>
+              ))}
+            </select>
+
+            <select
+              value={priceBucket}
+              onChange={(e) => setPriceBucket(e.target.value)}
+              className="select-chip"
+            >
+              {PRICE_BUCKETS.map((b) => (
+                <option key={b.key} value={b.key}>
+                  {b.label}
+                </option>
+              ))}
+            </select>
+
+            <select value={sortKey} onChange={(e) => setSortKey(e.target.value)} className="select-chip select-sort">
+              {SORTS.map((s) => (
+                <option key={s.key} value={s.key}>
+                  Urutkan: {s.label}
+                </option>
+              ))}
+            </select>
+
+            {hasFilter && (
+              <button className="reset-btn" onClick={resetAll}>
+                Reset
+              </button>
+            )}
           </div>
         </div>
 
-        {filteredCars.length > 0 ? (
-          <div className="grid grid-cols-3 listings-grid">
-            {filteredCars.map(car => (
-              <CarCard key={car.id} car={car} />
-            ))}
-          </div>
+        {filtered.length > 0 ? (
+          <>
+            <div className="grid grid-cols-3 listings-grid">
+              {pageItems.map((car) => (
+                <CarCard key={car.id} car={car} />
+              ))}
+            </div>
+
+            {totalPages > 1 && (
+              <nav className="pagination" aria-label="Halaman">
+                <button
+                  className="page-btn"
+                  disabled={safePage === 1}
+                  onClick={() => setPage(safePage - 1)}
+                >
+                  ← Sebelumnya
+                </button>
+                <span className="page-info">
+                  Halaman <strong>{safePage}</strong> dari <strong>{totalPages}</strong>
+                </span>
+                <button
+                  className="page-btn"
+                  disabled={safePage === totalPages}
+                  onClick={() => setPage(safePage + 1)}
+                >
+                  Selanjutnya →
+                </button>
+              </nav>
+            )}
+          </>
         ) : (
-          <div className="no-results text-center py-5">
+          <div className="no-results">
             <h3>Mobil tidak ditemukan</h3>
-            <p>Silakan sesuaikan filter atau kata kunci pencarian Anda.</p>
+            <p>Coba kurangi filter atau cari kata kunci lain.</p>
+            <button className="btn btn-outline" onClick={resetAll}>
+              Reset Filter
+            </button>
           </div>
         )}
       </div>
