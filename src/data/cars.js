@@ -1460,7 +1460,7 @@ export const cars = [
     body: "SUV",
     location: "Bandung (Plat D)",
     tax: "Peb 2027",
-    description: "OTR cash : 148 Jt nego\nOTR khusus credit : 136 Jt (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Peb 2027\n* Kilometer rendah \n* Buku service & manual book lengkap\n* Service record bengkel resmi\n* Kunci serep ada\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    description: "OTR cash : 146 Jt nego\nOTR khusus credit : 136 Jt (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Peb 2027\n* Kilometer rendah \n* Buku service & manual book lengkap\n* Service record bengkel resmi\n* Kunci serep ada\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
     addedAt: "2026-05-09T15:08:26+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945163081",
     image: "/images/olx-945163081/photo-1.jpg",
