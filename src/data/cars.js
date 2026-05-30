@@ -13,6 +13,298 @@ export const formatPrice = (price) => {
 export const cars = [
   {
     id: 1,
+    olxId: "945678615",
+    name: "KM 23RB! BRIO E CVT AT 2022 PUTIH / MODEL THN 2023 [BINTANG MOTOR]",
+    brand: "Honda",
+    model: "Brio",
+    variant: "1.2 New E Bensin-AT",
+    year: 2022,
+    price: 153500000,
+    priceCash: "Rp 153.500.000",
+    priceCredit: null,
+    fuel: "Bensin",
+    transmission: "Automatic",
+    mileage: "20.000-25.000 km",
+    color: "Putih",
+    body: "Hatchback",
+    location: "Bandung (Plat D)",
+    tax: "Juli 2026",
+    description: "OTR cash : 159 jt nego\nOTR khusus kredit : 153,5 jt (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Juli 2026\n* Kilometer low 23rb\n* Kunci ada 2\n* Service record bengkel resmi \n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-29T22:41:49+07:00",
+    olxUrl: "https://www.olx.co.id/item/iid-945678615",
+    image: "/images/olx-945678615/photo-1.jpg",
+    images: [
+      "/images/olx-945678615/photo-1.jpg",
+      "/images/olx-945678615/photo-2.jpg",
+      "/images/olx-945678615/photo-3.jpg",
+      "/images/olx-945678615/photo-4.jpg",
+      "/images/olx-945678615/photo-5.jpg",
+      "/images/olx-945678615/photo-6.jpg",
+      "/images/olx-945678615/photo-7.jpg",
+      "/images/olx-945678615/photo-8.jpg",
+      "/images/olx-945678615/photo-9.jpg",
+      "/images/olx-945678615/photo-10.jpg"
+    ],
+    isFeatured: true
+  },
+  {
+    id: 2,
+    olxId: "945678405",
+    name: "PAJERO DAKAR AT 2012 MARUN BARCODE / MODEL THN 2013 [BINTANG MOTOR]",
+    brand: "Mitsubishi",
+    model: "Pajero Sport",
+    variant: "2.5 Dakar Solar-AT",
+    year: 2012,
+    price: 216000000,
+    priceCash: "Rp 216.000.000",
+    priceCredit: null,
+    fuel: "Diesel",
+    transmission: "Automatic",
+    mileage: "155.000-160.000 km",
+    color: "Marun",
+    body: null,
+    location: "Bandung (Plat D)",
+    tax: "Juni 2026",
+    description: "PAJERO DAKAR AT 2012 MARUN [BARCODE SOLAR]\nOTR cash : 229 jt nego\nOTR khusus kredit : 216 jt (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Ada Barcode solar\n* Pajak on bln Juni 2026\n* Service record bengkel resmi \n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-29T22:24:27+07:00",
+    olxUrl: "https://www.olx.co.id/item/iid-945678405",
+    image: "/images/olx-945678405/photo-1.jpg",
+    images: [
+      "/images/olx-945678405/photo-1.jpg",
+      "/images/olx-945678405/photo-2.jpg",
+      "/images/olx-945678405/photo-3.jpg",
+      "/images/olx-945678405/photo-4.jpg",
+      "/images/olx-945678405/photo-5.jpg",
+      "/images/olx-945678405/photo-6.jpg",
+      "/images/olx-945678405/photo-7.jpg",
+      "/images/olx-945678405/photo-8.jpg",
+      "/images/olx-945678405/photo-9.jpg",
+      "/images/olx-945678405/photo-10.jpg",
+      "/images/olx-945678405/photo-11.jpg"
+    ],
+    isFeatured: true
+  },
+  {
+    id: 3,
+    olxId: "945678355",
+    name: "KM 49RB! SMART FORTWO 1.0 2011 PANORAMIC /MDL THN 2012 [BINTANG MOTOR]",
+    brand: "Smart",
+    model: "Fortwo",
+    variant: "1.0 Passion Coupe-AT",
+    year: 2011,
+    price: 145000000,
+    priceCash: "Rp 145.000.000",
+    priceCredit: null,
+    fuel: "Bensin",
+    transmission: "Automatic",
+    mileage: "45.000-50.000 km",
+    color: "Putih",
+    body: "Compact & City Car",
+    location: "Bandung (Plat D)",
+    tax: "Desember 2026",
+    description: "OTR cash : 159 Jt nego\nOTR khusus credit : 145 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Desember 2026\n* Kilometer rendah 49Rb\n* Panoramic\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n* Harga cash nego\n*",
+    addedAt: "2026-05-29T22:19:47+07:00",
+    olxUrl: "https://www.olx.co.id/item/iid-945678355",
+    image: "/images/olx-945678355/photo-1.jpg",
+    images: [
+      "/images/olx-945678355/photo-1.jpg",
+      "/images/olx-945678355/photo-2.jpg",
+      "/images/olx-945678355/photo-3.jpg",
+      "/images/olx-945678355/photo-4.jpg",
+      "/images/olx-945678355/photo-5.jpg",
+      "/images/olx-945678355/photo-6.jpg",
+      "/images/olx-945678355/photo-7.jpg",
+      "/images/olx-945678355/photo-8.jpg",
+      "/images/olx-945678355/photo-9.jpg",
+      "/images/olx-945678355/photo-10.jpg",
+      "/images/olx-945678355/photo-11.jpg"
+    ],
+    isFeatured: true
+  },
+  {
+    id: 4,
+    olxId: "945678256",
+    name: "NISSAN NAVARA MT 2012 KM RENDAH / MODEL THN 2013 [BINTANG MOTOR]",
+    brand: "Nissan",
+    model: "Navara",
+    variant: "2.5 Sports Version Solar-MT",
+    year: 2012,
+    price: 218000000,
+    priceCash: "Rp 218.000.000",
+    priceCredit: null,
+    fuel: "Diesel",
+    transmission: "Manual",
+    mileage: "120.000-125.000 km",
+    color: "Hitam",
+    body: "Double Cabin",
+    location: "Bandung (Plat D)",
+    tax: "Mei 2027",
+    description: "Otr cash  : 233 jt nego\nOtr khusus kredit : 218 jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Mei 2027\n* Transmisi manual 4x4\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n* Harga cash nego\n*",
+    addedAt: "2026-05-29T22:12:25+07:00",
+    olxUrl: "https://www.olx.co.id/item/iid-945678256",
+    image: "/images/olx-945678256/photo-1.jpg",
+    images: [
+      "/images/olx-945678256/photo-1.jpg",
+      "/images/olx-945678256/photo-2.jpg",
+      "/images/olx-945678256/photo-3.jpg",
+      "/images/olx-945678256/photo-4.jpg",
+      "/images/olx-945678256/photo-5.jpg",
+      "/images/olx-945678256/photo-6.jpg",
+      "/images/olx-945678256/photo-7.jpg",
+      "/images/olx-945678256/photo-8.jpg",
+      "/images/olx-945678256/photo-9.jpg",
+      "/images/olx-945678256/photo-10.jpg",
+      "/images/olx-945678256/photo-11.jpg"
+    ],
+    isFeatured: false
+  },
+  {
+    id: 5,
+    olxId: "945678171",
+    name: "KM 38RB! CRV 1.5 TURBO AT 2018  / MODEL THN 2019 [BINTANG MOTOR]",
+    brand: "Honda",
+    model: "CR-V",
+    variant: "1.5 Turbo Bensin-AT",
+    year: 2018,
+    price: 299000000,
+    priceCash: "Rp 299.000.000",
+    priceCredit: null,
+    fuel: "Bensin",
+    transmission: "Automatic",
+    mileage: "35.000-40.000 km",
+    color: "Merah",
+    body: "SUV",
+    location: "Bandung (Plat D)",
+    tax: "April 2027",
+    description: "OTR cash : 315 Jt nego\nOTR khusus credit : 299 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln April 2027\n* Kilometer rendah 38rb\n* Service record bengkel resmi Honda\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-29T22:06:22+07:00",
+    olxUrl: "https://www.olx.co.id/item/iid-945678171",
+    image: "/images/olx-945678171/photo-1.jpg",
+    images: [
+      "/images/olx-945678171/photo-1.jpg",
+      "/images/olx-945678171/photo-2.jpg",
+      "/images/olx-945678171/photo-3.jpg",
+      "/images/olx-945678171/photo-4.jpg",
+      "/images/olx-945678171/photo-5.jpg",
+      "/images/olx-945678171/photo-6.jpg",
+      "/images/olx-945678171/photo-7.jpg",
+      "/images/olx-945678171/photo-8.jpg",
+      "/images/olx-945678171/photo-9.jpg",
+      "/images/olx-945678171/photo-10.jpg",
+      "/images/olx-945678171/photo-11.jpg"
+    ],
+    isFeatured: false
+  },
+  {
+    id: 6,
+    olxId: "945659243",
+    name: "CAPTIVA 2.4 BENSIN AT 2011 FACELIFT / MODEL THN 2012 [BINTANG MOTOR]",
+    brand: "Chevrolet",
+    model: "Captiva",
+    variant: "2.4 Bensin-AT",
+    year: 2011,
+    price: 103000000,
+    priceCash: "Rp 103.000.000",
+    priceCredit: null,
+    fuel: "Bensin",
+    transmission: "Automatic",
+    mileage: "140.000-145.000 km",
+    color: "Coklat",
+    body: "SUV",
+    location: "Bandung (Plat D)",
+    tax: "Juni 2027",
+    description: "OTR cash : 112 jt nego\nOTR khusus kredit : 103 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juni 2027\n* Thn 2011 model pertama FACELIFT\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-29T09:19:28+07:00",
+    olxUrl: "https://www.olx.co.id/item/iid-945659243",
+    image: "/images/olx-945659243/photo-1.jpg",
+    images: [
+      "/images/olx-945659243/photo-1.jpg",
+      "/images/olx-945659243/photo-2.jpg",
+      "/images/olx-945659243/photo-3.jpg",
+      "/images/olx-945659243/photo-4.jpg",
+      "/images/olx-945659243/photo-5.jpg",
+      "/images/olx-945659243/photo-6.jpg",
+      "/images/olx-945659243/photo-7.jpg",
+      "/images/olx-945659243/photo-8.jpg",
+      "/images/olx-945659243/photo-9.jpg"
+    ],
+    isFeatured: false
+  },
+  {
+    id: 7,
+    olxId: "945659021",
+    name: "KM 35RB! XPANDER GLS MT 2022 BLACK / MODEL THN 2023 [BINTANG MOTOR]",
+    brand: "Mitsubishi",
+    model: "Xpander",
+    variant: "1.5 GLS Bensin-MT",
+    year: 2022,
+    price: 186000000,
+    priceCash: "Rp 186.000.000",
+    priceCredit: null,
+    fuel: "Bensin",
+    transmission: "Manual",
+    mileage: "30.000-35.000 km",
+    color: "Hitam",
+    body: null,
+    location: "Bandung (Plat D)",
+    tax: "Agust 2026",
+    description: "OTR Cash : 196 Jt nego\nOTR khusus Credit : 186 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Agust 2026\n* Kilometer rendah 35rb\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi manual\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-29T09:06:28+07:00",
+    olxUrl: "https://www.olx.co.id/item/iid-945659021",
+    image: "/images/olx-945659021/photo-1.jpg",
+    images: [
+      "/images/olx-945659021/photo-1.jpg",
+      "/images/olx-945659021/photo-2.jpg",
+      "/images/olx-945659021/photo-3.jpg",
+      "/images/olx-945659021/photo-4.jpg",
+      "/images/olx-945659021/photo-5.jpg",
+      "/images/olx-945659021/photo-6.jpg",
+      "/images/olx-945659021/photo-7.jpg",
+      "/images/olx-945659021/photo-8.jpg",
+      "/images/olx-945659021/photo-9.jpg",
+      "/images/olx-945659021/photo-10.jpg",
+      "/images/olx-945659021/photo-11.jpg"
+    ],
+    isFeatured: false
+  },
+  {
+    id: 8,
+    olxId: "945658950",
+    name: "FORTUNER VRZ AT 2016 PUTIH BARCODE / MODEL THN 2017 [BINTANG MOTOR]",
+    brand: "Toyota",
+    model: "Fortuner",
+    variant: "2.4 VRZ Solar-AT",
+    year: 2016,
+    price: 335000000,
+    priceCash: "Rp 335.000.000",
+    priceCredit: null,
+    fuel: "Diesel",
+    transmission: "Automatic",
+    mileage: "135.000-140.000 km",
+    color: "Putih",
+    body: null,
+    location: "Bandung (Plat D)",
+    tax: "Oktober 2026",
+    description: "FORTUNER VRZ AT 2016 [BARCODE SOLAR]\n\nOTR cash : 349 Jt nego\nOTR khusus credit : 335 Jt (*min tenor 4 & 5 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Oktober 2026\n* ADA BARCODE SOLAR\n* Service record bengkel resmi\n* Grill dpn dikasih double dgn ori\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-05-29T09:02:36+07:00",
+    olxUrl: "https://www.olx.co.id/item/iid-945658950",
+    image: "/images/olx-945658950/photo-1.jpg",
+    images: [
+      "/images/olx-945658950/photo-1.jpg",
+      "/images/olx-945658950/photo-2.jpg",
+      "/images/olx-945658950/photo-3.jpg",
+      "/images/olx-945658950/photo-4.jpg",
+      "/images/olx-945658950/photo-5.jpg",
+      "/images/olx-945658950/photo-6.jpg",
+      "/images/olx-945658950/photo-7.jpg",
+      "/images/olx-945658950/photo-8.jpg",
+      "/images/olx-945658950/photo-9.jpg",
+      "/images/olx-945658950/photo-10.jpg"
+    ],
+    isFeatured: false
+  },
+  {
+    id: 9,
     olxId: "945626269",
     name: "KM 39RB! BMW X1 1.5 AT 2018 PANORAMIC / MODEL THN 2019 [BINTANG MOTOR]",
     brand: "BMW",
@@ -44,10 +336,10 @@ export const cars = [
       "/images/olx-945626269/photo-8.jpg",
       "/images/olx-945626269/photo-9.jpg"
     ],
-    isFeatured: true
+    isFeatured: false
   },
   {
-    id: 2,
+    id: 10,
     olxId: "945626129",
     name: "CAMRY 2.5 V AT 2017 KM 89RB BLACK / MODEL THN 2018 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -80,46 +372,10 @@ export const cars = [
       "/images/olx-945626129/photo-9.jpg",
       "/images/olx-945626129/photo-10.jpg"
     ],
-    isFeatured: true
+    isFeatured: false
   },
   {
-    id: 3,
-    olxId: "945626077",
-    name: "KM 89RB! YARIS S LIMITED AT 2010 SILVER/MODEL THN 2011 [BINTANG MOTOR]",
-    brand: "Toyota",
-    model: "Yaris",
-    variant: "1.5 S Limited Bensin-AT",
-    year: 2010,
-    price: 106000000,
-    priceCash: "Rp 106.000.000",
-    priceCredit: null,
-    fuel: "Bensin",
-    transmission: "Automatic",
-    mileage: "85.000-90.000 km",
-    color: "Silver",
-    body: "Hatchback",
-    location: "Bandung (Plat D)",
-    tax: "Juni 2027",
-    description: "OTR cash : 115 jt nego\nOTR khusus kredit : 106 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juni 2027\n* Kilometer rendah 89rb\n* Type tertinggi S Limited\n* Kunci smart key\n* Jok sdh dicover semi kulit\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
-    addedAt: "2026-05-27T16:20:56+07:00",
-    olxUrl: "https://www.olx.co.id/item/iid-945626077",
-    image: "/images/olx-945626077/photo-1.jpg",
-    images: [
-      "/images/olx-945626077/photo-1.jpg",
-      "/images/olx-945626077/photo-2.jpg",
-      "/images/olx-945626077/photo-3.jpg",
-      "/images/olx-945626077/photo-4.jpg",
-      "/images/olx-945626077/photo-5.jpg",
-      "/images/olx-945626077/photo-6.jpg",
-      "/images/olx-945626077/photo-7.jpg",
-      "/images/olx-945626077/photo-8.jpg",
-      "/images/olx-945626077/photo-9.jpg",
-      "/images/olx-945626077/photo-10.jpg"
-    ],
-    isFeatured: true
-  },
-  {
-    id: 4,
+    id: 11,
     olxId: "945625878",
     name: "KM 65RB! CRV 1.5 PRESTIGE 2018 BLACK / MODEL THN 2019 [BINTANG MOTOR]",
     brand: "Honda",
@@ -157,7 +413,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 5,
+    id: 12,
     olxId: "945625502",
     name: "INNOVA G 2.0 BENSIN MT 2015 GREY BARONG [BINTANG MOTOR]",
     brand: "Toyota",
@@ -193,7 +449,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 6,
+    id: 13,
     olxId: "945501299",
     name: "KM 60RB! MINI S BAYSWATER 2012 SUNROOF / MDL THN 2013 [BINTANG MOTOR]",
     brand: "Mini",
@@ -230,7 +486,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 7,
+    id: 14,
     olxId: "945495451",
     name: "MERCY C200 AVG 2016 KM RENDAH BLACK / MODEL THN 2017 [BINTANG MOTOR]",
     brand: "Mercedes-Benz",
@@ -266,7 +522,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 8,
+    id: 15,
     olxId: "945489775",
     name: "KM 62RB! MERCY GLA200 AT 2015 GREY / MODEL THN 2016 [BINTANG MOTOR]",
     brand: "Mercedes-Benz",
@@ -302,7 +558,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 9,
+    id: 16,
     olxId: "945489336",
     name: "CRV 1.5 PRESTIGE 2019 KM RENDAH SUNROOF/MODEL THN 2020 [BINTANG MOTOR]",
     brand: "Honda",
@@ -339,7 +595,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 10,
+    id: 17,
     olxId: "945489147",
     name: "TOYOTA VELLFIRE G AT 2017 BLACK / MODEL THN 2018 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -375,7 +631,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 11,
+    id: 18,
     olxId: "945489043",
     name: "SUBARU XV AT 2013 KM 87RB SILVER / MODEL THN 2014 [BINTANG MOTOR]",
     brand: "Subaru",
@@ -412,7 +668,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 12,
+    id: 19,
     olxId: "945444553",
     name: "MERCY C200 AVG 2014 KM 85RB FACELIFT / MODEL THN 2015 [BINTANG MOTOR]",
     brand: "Mercedes-Benz",
@@ -448,7 +704,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 13,
+    id: 20,
     olxId: "945441713",
     name: "XPANDER GLS MT 2022 KM 44RB SILVER / MODEL THN 2023 [BINTANG MOTOR]",
     brand: "Mitsubishi",
@@ -485,7 +741,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 14,
+    id: 21,
     olxId: "945424881",
     name: "BMW 520i G30 AT 2018 KM RENDAH GREY / MODEL THN 2019 [BINTANG MOTOR]",
     brand: "BMW",
@@ -522,7 +778,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 15,
+    id: 22,
     olxId: "945422981",
     name: "FREED E PSD 2013 AC DOUBLE KM RENDAH / MODEL THN 2014 [BINTANG MOTOR]",
     brand: "Honda",
@@ -559,7 +815,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 16,
+    id: 23,
     olxId: "945416485",
     name: "FORTUNER TRD BENSIN AT 2014 BLACK / MODEL THN 2015 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -596,7 +852,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 17,
+    id: 24,
     olxId: "945416201",
     name: "ODYSSEY E 2.5 AT 2017 PRESTIGE PUTIH / MODEL THN 2018 [BINTANG MOTOR]",
     brand: "Honda",
@@ -634,7 +890,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 18,
+    id: 25,
     olxId: "945413005",
     name: "INNOVA G BENSIN MT 2020 KM 64RB / MODEL THN 2021 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -671,7 +927,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 19,
+    id: 26,
     olxId: "945347089",
     name: "KM 50RB! AUDI TT COUPE AT 2007 ISTIMEWA / MDL THN 2008 [BINTANG MOTOR]",
     brand: "Audi",
@@ -707,7 +963,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 20,
+    id: 27,
     olxId: "945347004",
     name: "MERCY C200 AVG 2016 KM RENDAH BLACK / MODEL THN 2017 [BINTANG MOTOR]",
     brand: "Mercedes-Benz",
@@ -744,7 +1000,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 21,
+    id: 28,
     olxId: "945318614",
     name: "COLT DIESEL DOUBLE 2001 BOX RAGASA / MDL THN 2002 [BINTANG MOTOR]",
     brand: "Mitsubishi",
@@ -778,7 +1034,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 22,
+    id: 29,
     olxId: "945318281",
     name: "SANTA FE BENSIN AT 2014 PANORAMIC / MODEL THN 2015 [BINTANG MOTOR]",
     brand: "Hyundai",
@@ -816,7 +1072,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 23,
+    id: 30,
     olxId: "945318120",
     name: "SERENA HWS AT 2019 KM RENDAH SILVER / MODEL THN 2020 [BINTANG MOTOR]",
     brand: "Nissan",
@@ -853,7 +1109,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 24,
+    id: 31,
     olxId: "945305256",
     name: "JEEP CHEROKEE 2.4 AWD 2014 PANORAMIC / MODEL THN 2015 [BINTANG MOTOR]",
     brand: "Jeep",
@@ -889,7 +1145,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 25,
+    id: 32,
     olxId: "945305082",
     name: "TOYOTA YARIS G AT 2017 SILVER / MDL THN 2018 / NON TRD [BINTANG MOTOR]",
     brand: "Toyota",
@@ -925,7 +1181,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 26,
+    id: 33,
     olxId: "945303107",
     name: "ELGRAND HWS 2.5 AT 2014 FACELIFT KM 65RB /MDL THN 2015 [BINTANG MOTOR]",
     brand: "Nissan",
@@ -963,7 +1219,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 27,
+    id: 34,
     olxId: "945302937",
     name: "KM 31RB! PAJERO DAKAR ULTIMATE 2019 / MODEL THN 2020 [BINTANG MOTOR]",
     brand: "Mitsubishi",
@@ -999,7 +1255,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 28,
+    id: 35,
     olxId: "945282571",
     name: "ALPHARD G 2015 KM RENDAH TRANSFORMER / MODEL THN 2016 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -1037,7 +1293,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 29,
+    id: 36,
     olxId: "945221219",
     name: "GRAND CARNIVAL PREMIER 2022 PUTIH / MODEL THN 2023 [BINTANG MOTOR]",
     brand: "Kia",
@@ -1076,7 +1332,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 30,
+    id: 37,
     olxId: "945221115",
     name: "VELLFIRE G AT 2017 BODY KIT MODELLISTA / 2018 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -1112,7 +1368,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 31,
+    id: 38,
     olxId: "945220598",
     name: "H1 ROYALE BENSIN AT 2018 FACELIFT PUTIH / MDL THN 2019 [BINTANG MOTOR]",
     brand: "Hyundai",
@@ -1148,7 +1404,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 32,
+    id: 39,
     olxId: "945220484",
     name: "JEEP RUBICON 3.8 4PT 2007 KM 52RB / MODEL THN 2008 [BINTANG MOTOR]",
     brand: "Jeep",
@@ -1188,7 +1444,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 33,
+    id: 40,
     olxId: "945220335",
     name: "KM 79RB! CRV 2.4 PRESTIGE 2014 PUTIH  [BINTANG MOTOR]",
     brand: "Honda",
@@ -1224,7 +1480,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 34,
+    id: 41,
     olxId: "945220252",
     name: "KM 56RB! RUSH TRD S AT 2019 SILVER  / MODEL THN 2020 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -1261,7 +1517,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 35,
+    id: 42,
     olxId: "945178409",
     name: "MERCY S350L AT 2012 SUNROOF BLACK  / MODEL THN 2013 [BINTANG MOTOR]",
     brand: "Mercedes-Benz",
@@ -1298,7 +1554,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 36,
+    id: 43,
     olxId: "945178325",
     name: "MERCY E230 AT 1997 NEW EYES PUTIH / MODEL THN 1998 [BINTANG MOTOR]",
     brand: "Mercedes-Benz",
@@ -1334,7 +1590,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 37,
+    id: 44,
     olxId: "945178154",
     name: "VW TIGUAN TSI AT 2021 KM RENDAH BLACK / MODEL THN 2022 [BINTANG MOTOR]",
     brand: "Volkswagen",
@@ -1371,7 +1627,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 38,
+    id: 45,
     olxId: "945178018",
     name: "YARIS S LIMITED AT 2010 PUTIH  / MODEL THN 2011 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -1405,7 +1661,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 39,
+    id: 46,
     olxId: "945177906",
     name: "SERENA HWS AUTECH 2015 PANORAMIC / MODEL THN 2016 [BINTANG MOTOR]",
     brand: "Nissan",
@@ -1443,7 +1699,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 40,
+    id: 47,
     olxId: "945177640",
     name: "LEXUS RX270 AT 2013 BLACK  / MODEL THN 2014 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -1478,44 +1734,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 41,
-    olxId: "945177510",
-    name: "KM 53RB! ALTIS V 1.8 AT 2014 FACELIFT / MODEL THN 2015 [BINTANG MOTOR]",
-    brand: "Toyota",
-    model: "Altis",
-    variant: "V-AT",
-    year: 2014,
-    price: 173000000,
-    priceCash: "Rp 173.000.000",
-    priceCredit: null,
-    fuel: "Bensin",
-    transmission: "Automatic",
-    mileage: "50.000-55.000 km",
-    color: "Putih",
-    body: "Sedan",
-    location: "Bandung (Plat D)",
-    tax: "Desember 2026",
-    description: "OTR cash : 186 jt nego\nOTR khusus kredit : 173 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Desember 2026\n* Kilometer rendah 53rb\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
-    addedAt: "2026-05-10T09:14:08+07:00",
-    olxUrl: "https://www.olx.co.id/item/iid-945177510",
-    image: "/images/olx-945177510/photo-1.jpg",
-    images: [
-      "/images/olx-945177510/photo-1.jpg",
-      "/images/olx-945177510/photo-2.jpg",
-      "/images/olx-945177510/photo-3.jpg",
-      "/images/olx-945177510/photo-4.jpg",
-      "/images/olx-945177510/photo-5.jpg",
-      "/images/olx-945177510/photo-6.jpg",
-      "/images/olx-945177510/photo-7.jpg",
-      "/images/olx-945177510/photo-8.jpg",
-      "/images/olx-945177510/photo-9.jpg",
-      "/images/olx-945177510/photo-10.jpg",
-      "/images/olx-945177510/photo-11.jpg"
-    ],
-    isFeatured: false
-  },
-  {
-    id: 42,
+    id: 48,
     olxId: "945177375",
     name: "NISSAN XTRAIL 2.0 AT 2016 BLACK / MODEL THN 2017 [BINTANG MOTOR]",
     brand: "Nissan",
@@ -1550,7 +1769,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 43,
+    id: 49,
     olxId: "945177293",
     name: "KM 53RB! BMW 320i F30 2013 FACELIFT / MODEL THN 2014 [BINTANG MOTOR]",
     brand: "BMW",
@@ -1587,7 +1806,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 44,
+    id: 50,
     olxId: "945163081",
     name: "OUTLANDER PX AT 2012 PANORAMIC BLACK / MODEL THN 2013 [BINTANG MOTOR]",
     brand: "Mitsubishi",
@@ -1624,7 +1843,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 45,
+    id: 51,
     olxId: "945162983",
     name: "INNOVA E BENSIN AT 2011 FACELIFT / MODEL THN 2012 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -1659,7 +1878,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 46,
+    id: 52,
     olxId: "945086786",
     name: "TOYOTA ALPHARD G AT 2012 SILVER  / MODEL THN 2013 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -1692,7 +1911,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 47,
+    id: 53,
     olxId: "945086680",
     name: "MERCY GLA200 1.6 AT 2014 BLACK  / MODEL THN 2015 [BINTANG MOTOR]",
     brand: "Mercedes-Benz",
@@ -1728,7 +1947,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 48,
+    id: 54,
     olxId: "945083981",
     name: "KIA RIO AT 2017 SUNROOF YELLOW / MODEL THN 2018 [BINTANG MOTOR]",
     brand: "Kia",
@@ -1765,7 +1984,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 49,
+    id: 55,
     olxId: "945083835",
     name: "CRV 1.5 PRESTIGE 2022 BLACK / MODEL THN 2023 [BINTANG MOTOR]",
     brand: "Honda",
@@ -1801,7 +2020,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 50,
+    id: 56,
     olxId: "945067249",
     name: "KM 9RB! YARIS TRD MT 2019 YELLOW  / MODEL THN 2020 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -1838,7 +2057,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 51,
+    id: 57,
     olxId: "945058684",
     name: "MERCY GLC250 AT 2017 PUTIH  / MODEL THN 2018 [BINTANG MOTOR]",
     brand: "Mercedes-Benz",
@@ -1875,7 +2094,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 52,
+    id: 58,
     olxId: "945058493",
     name: "KM 50RB! PAJERO DAKAR AT 2016 COKLAT / MODEL THN 2017 [BINTANG MOTOR]",
     brand: "Mitsubishi",
@@ -1912,7 +2131,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 53,
+    id: 59,
     olxId: "945052630",
     name: "ELGRAND HWS 2.5 AT 2014 FACELIFT PUTIH /MODEL THN 2015 [BINTANG MOTOR]",
     brand: "Nissan",
@@ -1948,7 +2167,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 54,
+    id: 60,
     olxId: "945052238",
     name: "TOYOTA ALPHARD 2.4 AT 2010 BLACK  / MODEL THN 2011 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -1985,7 +2204,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 55,
+    id: 61,
     olxId: "945052093",
     name: "KM 49RB! PAJERO DAKAR AT 2015 PUTIH ISTIMEWA [BINTANG MOTOR]",
     brand: "Mitsubishi",
@@ -2022,7 +2241,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 56,
+    id: 62,
     olxId: "945051932",
     name: "BIANTE SKYACTIV AT 2014 BLACK  / MODEL THN 2015 [BINTANG MOTOR]",
     brand: "Mazda",
@@ -2059,7 +2278,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 57,
+    id: 63,
     olxId: "945051750",
     name: "KM 53RB! OUTLANDER PX 2018 PANORAMIC / MODEL THN 2019 [BINTANG MOTOR]",
     brand: "Mitsubishi",
@@ -2095,7 +2314,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 58,
+    id: 64,
     olxId: "945023992",
     name: "PAJERO SPORT DAKAR AT 2018 BLACK  / MODEL THN 2019 [BINTANG MOTOR]",
     brand: "Mitsubishi",
@@ -2132,7 +2351,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 59,
+    id: 65,
     olxId: "945002249",
     name: "KM 37RB! VW POLO 1.2 AT 2020 PUTIH / MODEL THN 2021 [BINTANG MOTOR]",
     brand: "Volkswagen",
@@ -2168,7 +2387,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 60,
+    id: 66,
     olxId: "945000112",
     name: "PAJERO DAKAR VGT AT 2014 BLACK  / MODEL THN 2015 [BINTANG MOTOR]",
     brand: "Mitsubishi",
@@ -2205,7 +2424,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 61,
+    id: 67,
     olxId: "944959936",
     name: "MAZDA 2 GT SKYACTIV 2018 KM RENDAH PUTIH /MDL THN 2019 [BINTANG MOTOR]",
     brand: "Mazda",
@@ -2239,7 +2458,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 62,
+    id: 68,
     olxId: "944959798",
     name: "KM 26RB! BRIO RS AT 2020 BLACK / MODEL THN 2021 [BINTANG MOTOR]",
     brand: "Honda",
@@ -2274,7 +2493,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 63,
+    id: 69,
     olxId: "944959383",
     name: "KM 40RB! PAJERO DAKAR AT 2018 GREY / MODEL THN 2019 [BINTANG MOTOR]",
     brand: "Mitsubishi",
@@ -2308,41 +2527,6 @@ export const cars = [
       "/images/olx-944959383/photo-10.jpg",
       "/images/olx-944959383/photo-11.jpg",
       "/images/olx-944959383/photo-12.jpg"
-    ],
-    isFeatured: false
-  },
-  {
-    id: 64,
-    olxId: "944905132",
-    name: "KM 61RB! CX3 2.0 GT 2017 SUNROOF / MODEL THN 2018 [BINTANG MOTOR]",
-    brand: "Mazda",
-    model: "CX-3",
-    variant: "2.0 GT Bensin-AT",
-    year: 2017,
-    price: 253000000,
-    priceCash: "Rp 253.000.000",
-    priceCredit: null,
-    fuel: "Bensin",
-    transmission: "Automatic",
-    mileage: "55.000-60.000 km",
-    color: "Hitam",
-    body: "SUV",
-    location: "Bandung (Plat D)",
-    tax: "Sept 2026",
-    description: "OTR cash : 269 jt nego\nOTR khusus kredit : 253 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Kilometer rendah 61rb\n* Pajak on bln Sept 2026\n* Sunroof\n* Kunci ada 2\n* Service record bengkel resmi mazda\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
-    addedAt: "2026-04-29T11:52:52+07:00",
-    olxUrl: "https://www.olx.co.id/item/iid-944905132",
-    image: "/images/olx-944905132/photo-1.jpg",
-    images: [
-      "/images/olx-944905132/photo-1.jpg",
-      "/images/olx-944905132/photo-2.jpg",
-      "/images/olx-944905132/photo-3.jpg",
-      "/images/olx-944905132/photo-4.jpg",
-      "/images/olx-944905132/photo-5.jpg",
-      "/images/olx-944905132/photo-6.jpg",
-      "/images/olx-944905132/photo-7.jpg",
-      "/images/olx-944905132/photo-8.jpg",
-      "/images/olx-944905132/photo-9.jpg"
     ],
     isFeatured: false
   }
