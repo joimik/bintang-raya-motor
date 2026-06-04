@@ -2531,42 +2531,5 @@ export const cars = [
       "/images/olx-945051750/photo-10.jpg"
     ],
     isFeatured: false
-  },
-  {
-    id: 70,
-    olxId: "945023992",
-    name: "PAJERO SPORT DAKAR AT 2018 BLACK  / MODEL THN 2019 [BINTANG MOTOR]",
-    brand: "Mitsubishi",
-    model: "Pajero Sport",
-    variant: "2.4 Dakar Solar-AT",
-    year: 2018,
-    price: 379000000,
-    priceCash: "Rp 379.000.000",
-    priceCredit: null,
-    fuel: "Diesel",
-    transmission: "Automatic",
-    mileage: "75.000-80.000 km",
-    color: "Hitam",
-    body: null,
-    location: "Bandung (Plat D)",
-    tax: "Maret 2027",
-    description: "PAJERO DAKAR AT 2018 BLACK [BARCODE SOLAR]\nOTR cash : 395 jt nego\nOTR khusus kredit : 379 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Kilometer rendah\n* Pajak on bln Maret 2027\n* Sunroof\n* Kunci ada 2\n* Service record bengkel resmi mitsubishi\n* Buku service & manual book lengkap\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
-    addedAt: "2026-05-04T11:00:20+07:00",
-    olxUrl: "https://www.olx.co.id/item/iid-945023992",
-    image: "/images/olx-945023992/photo-1.jpg",
-    images: [
-      "/images/olx-945023992/photo-1.jpg",
-      "/images/olx-945023992/photo-2.jpg",
-      "/images/olx-945023992/photo-3.jpg",
-      "/images/olx-945023992/photo-4.jpg",
-      "/images/olx-945023992/photo-5.jpg",
-      "/images/olx-945023992/photo-6.jpg",
-      "/images/olx-945023992/photo-7.jpg",
-      "/images/olx-945023992/photo-8.jpg",
-      "/images/olx-945023992/photo-9.jpg",
-      "/images/olx-945023992/photo-10.jpg",
-      "/images/olx-945023992/photo-11.jpg"
-    ],
-    isFeatured: false
   }
 ];
