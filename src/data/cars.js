@@ -92,8 +92,8 @@ export const cars = [
     model: "CX-3",
     variant: "2.0 GT Bensin-AT",
     year: 2018,
-    price: 235000000,
-    priceCash: "Rp 235.000.000",
+    price: 233000000,
+    priceCash: "Rp 233.000.000",
     priceCredit: null,
     fuel: "Bensin",
     transmission: "Automatic",
@@ -101,8 +101,8 @@ export const cars = [
     color: "Merah",
     body: "SUV",
     location: "Bandung (Plat D)",
-    tax: "April 2027",
-    description: "OTR cash : 249 jt nego\nOTR khusus kredit : 235 jt   (*min tenor 4 & 5 thn)\n\n* Plat D (Bandung)\n* Kilometer rendah 42rb\n* Pajak on bln April 2027\n* Sunroof\n* Jok kulit ori mazda\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    tax: "—",
+    description: "OTR cash : 247 jt nego\nOTR khusus kredit : 233 jt   (*min tenor 4 & 5 thn)\n\n* Plat D (Bandung)\n* Kilometer rendah 42rb\n* Pajak on s/d bln April 2027\n* Sunroof\n* Jok kulit ori mazda\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
     addedAt: "2026-07-21T13:31:32+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-946897156",
     image: "/images/olx-946897156/photo-1.jpg",
@@ -608,8 +608,8 @@ export const cars = [
     model: "Alphard",
     variant: "2.4 Bensin-AT",
     year: 2009,
-    price: 165000000,
-    priceCash: "Rp 165.000.000",
+    price: 163000000,
+    priceCash: "Rp 163.000.000",
     priceCredit: null,
     fuel: "Bensin",
     transmission: "Automatic",
@@ -618,7 +618,7 @@ export const cars = [
     body: null,
     location: "Bandung (Plat D)",
     tax: "—",
-    description: "OTR cash : 179 jt nego\nOTR khusus kredit : 165 jt   (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on s/d bln Agust 2027 \n* Kunci ada 2\n* Jok depan sdh electric seat\n* Premium sound\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    description: "OTR cash : 177 jt nego\nOTR khusus kredit : 163 jt   (*min tenor 3 & 4 thn)\n\n* Plat B (Jakarta)\n* Pajak on s/d bln Agust 2027 \n* Kunci ada 2\n* Jok depan sdh electric seat\n* Premium sound\n* Service record bengkel resmi\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
     addedAt: "2026-06-30T19:30:00+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-946423963",
     image: "/images/olx-946423963/photo-1.jpg",
@@ -937,8 +937,8 @@ export const cars = [
     model: "CR-V",
     variant: "1.5 Turbo Prestige Bensin-AT",
     year: 2019,
-    price: 343000000,
-    priceCash: "Rp 343.000.000",
+    price: 339000000,
+    priceCash: "Rp 339.000.000",
     priceCredit: null,
     fuel: "Bensin",
     transmission: "Automatic",
@@ -946,8 +946,8 @@ export const cars = [
     color: "Silver",
     body: "SUV",
     location: "Bandung (Plat D)",
-    tax: "Desember 2026",
-    description: "OTR cash : 359 Jt nego\nOTR khusus credit : 343 Jt (*min tenor 4 & 5 thn)\n\n* Plat B (Jakarta)\n* Pajak on bln Desember 2026\n* Kilometer low 34rb\n* Type Prestige Panoramic\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    tax: "—",
+    description: "OTR cash : 355 Jt nego\nOTR khusus credit : 339 Jt (*min tenor 4 & 5 thn)\n\n* Plat B (Jakarta)\n* Pajak on s/d bln Desember 2026\n* Kilometer low 34rb\n* Type Prestige Panoramic\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
     addedAt: "2026-06-13T14:45:06+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-946030285",
     image: "/images/olx-946030285/photo-1.jpg",
@@ -1265,8 +1265,8 @@ export const cars = [
     model: "Wrangler",
     variant: "3.8 Unlimited JK Sport Bensin-AT",
     year: 2007,
-    price: 509000000,
-    priceCash: "Rp 509.000.000",
+    price: 499000000,
+    priceCash: "Rp 499.000.000",
     priceCredit: null,
     fuel: "Bensin",
     transmission: "Automatic",
@@ -1274,8 +1274,8 @@ export const cars = [
     color: "Hitam",
     body: "Jeep",
     location: "Bandung (Plat D)",
-    tax: "July 2027",
-    description: "OTR cash : 529 Jt nego\nOTR khusus credit : 509 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln July 2027\n* Kilometer rendah 52rb\n* Axle lock & Sway bar\n* Velg racing custom\n* Transmisi automatic 4x4\n* Kunci ada 2\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    tax: "—",
+    description: "OTR cash : 519 Jt nego\nOTR khusus credit : 499 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on s/d bln July 2027\n* Kilometer rendah 52rb\n* Axle lock & Sway bar\n* Velg racing custom\n* Transmisi automatic 4x4\n* Kunci ada 2\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
     addedAt: "2026-06-11T19:23:28+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945987715",
     image: "/images/olx-945987715/photo-1.jpg",
@@ -1596,8 +1596,8 @@ export const cars = [
     model: "Elgrand",
     variant: "2.5 Highway Star Bensin-AT",
     year: 2014,
-    price: 245000000,
-    priceCash: "Rp 245.000.000",
+    price: 239000000,
+    priceCash: "Rp 239.000.000",
     priceCredit: null,
     fuel: "Bensin",
     transmission: "Automatic",
@@ -1605,8 +1605,8 @@ export const cars = [
     color: "Putih",
     body: null,
     location: "Bandung (Plat D)",
-    tax: "Mei 2027",
-    description: "OTR cash : 265 jt nego\nOTR khusus kredit : 245 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Mei 2027\n* Service record bengkel resmi\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    tax: "—",
+    description: "OTR cash : 258 jt nego\nOTR khusus kredit : 239 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on s/d bln Mei 2027\n* Service record bengkel resmi\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
     addedAt: "2026-06-06T11:19:28+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945857383",
     image: "/images/olx-945857383/photo-1.jpg",
@@ -2166,78 +2166,6 @@ export const cars = [
   },
   {
     id: 60,
-    olxId: "945626129",
-    name: "CAMRY 2.5 V AT 2017 KM 89RB BLACK / MODEL THN 2018 [BINTANG MOTOR]",
-    brand: "Toyota",
-    model: "Camry",
-    variant: "2.5 V Bensin-AT",
-    year: 2017,
-    price: 219000000,
-    priceCash: "Rp 219.000.000",
-    priceCredit: null,
-    fuel: "Bensin",
-    transmission: "Automatic",
-    mileage: "85.000-90.000 km",
-    color: "Hitam",
-    body: "Sedan",
-    location: "Bandung (Plat D)",
-    tax: "Maret 2027",
-    description: "OTR cash : 233 jt nego\nOTR khusus kredit : 215 jt   (*min tenor 3 & 4 thn)\n\n* Plat B (Cikarang)\n* Pajak on bln Maret 2027\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
-    addedAt: "2026-05-27T16:25:10+07:00",
-    olxUrl: "https://www.olx.co.id/item/iid-945626129",
-    image: "/images/olx-945626129/photo-1.jpg",
-    images: [
-      "/images/olx-945626129/photo-1.jpg",
-      "/images/olx-945626129/photo-2.jpg",
-      "/images/olx-945626129/photo-3.jpg",
-      "/images/olx-945626129/photo-4.jpg",
-      "/images/olx-945626129/photo-5.jpg",
-      "/images/olx-945626129/photo-6.jpg",
-      "/images/olx-945626129/photo-7.jpg",
-      "/images/olx-945626129/photo-8.jpg",
-      "/images/olx-945626129/photo-9.jpg",
-      "/images/olx-945626129/photo-10.jpg"
-    ],
-    isFeatured: false
-  },
-  {
-    id: 61,
-    olxId: "945625502",
-    name: "INNOVA G 2.0 BENSIN MT 2015 GREY BARONG [BINTANG MOTOR]",
-    brand: "Toyota",
-    model: "Kijang Innova",
-    variant: "2.0 G Luxury Bensin-MT",
-    year: 2015,
-    price: 179000000,
-    priceCash: "Rp 179.000.000",
-    priceCredit: null,
-    fuel: "Bensin",
-    transmission: "Manual",
-    mileage: "135.000-140.000 km",
-    color: "Abu-abu",
-    body: null,
-    location: "Bandung (Plat D)",
-    tax: "Juli 2027",
-    description: "OTR cash : 189 Jt nego\nOTR khusus credit : 179 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juli 2027\n* Service record bengkel resmi\n* Kunci serep ada\n* Buku service & manual book lengkap\n* Transmisi manual\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
-    addedAt: "2026-05-27T16:04:53+07:00",
-    olxUrl: "https://www.olx.co.id/item/iid-945625502",
-    image: "/images/olx-945625502/photo-1.jpg",
-    images: [
-      "/images/olx-945625502/photo-1.jpg",
-      "/images/olx-945625502/photo-2.jpg",
-      "/images/olx-945625502/photo-3.jpg",
-      "/images/olx-945625502/photo-4.jpg",
-      "/images/olx-945625502/photo-5.jpg",
-      "/images/olx-945625502/photo-6.jpg",
-      "/images/olx-945625502/photo-7.jpg",
-      "/images/olx-945625502/photo-8.jpg",
-      "/images/olx-945625502/photo-9.jpg",
-      "/images/olx-945625502/photo-10.jpg"
-    ],
-    isFeatured: false
-  },
-  {
-    id: 62,
     olxId: "945501299",
     name: "KM 60RB! MINI S BAYSWATER 2012 SUNROOF / MDL THN 2013 [BINTANG MOTOR]",
     brand: "Mini",
@@ -2274,7 +2202,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 63,
+    id: 61,
     olxId: "945495451",
     name: "MERCY C200 AVG 2016 KM RENDAH BLACK / MODEL THN 2017 [BINTANG MOTOR]",
     brand: "Mercedes-Benz",
@@ -2310,7 +2238,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 64,
+    id: 62,
     olxId: "945489775",
     name: "KM 62RB! MERCY GLA200 AT 2015 GREY / MODEL THN 2016 [BINTANG MOTOR]",
     brand: "Mercedes-Benz",
@@ -2346,7 +2274,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 65,
+    id: 63,
     olxId: "945489147",
     name: "TOYOTA VELLFIRE G AT 2017 BLACK / MODEL THN 2018 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -2382,7 +2310,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 66,
+    id: 64,
     olxId: "945489043",
     name: "SUBARU XV AT 2013 KM 87RB SILVER / MODEL THN 2014 [BINTANG MOTOR]",
     brand: "Subaru",
@@ -2419,7 +2347,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 67,
+    id: 65,
     olxId: "945444553",
     name: "MERCY C200 AVG 2014 KM 85RB FACELIFT / MODEL THN 2015 [BINTANG MOTOR]",
     brand: "Mercedes-Benz",
@@ -2455,7 +2383,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 68,
+    id: 66,
     olxId: "945441713",
     name: "XPANDER GLS MT 2022 KM 44RB SILVER / MODEL THN 2023 [BINTANG MOTOR]",
     brand: "Mitsubishi",
@@ -2492,7 +2420,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 69,
+    id: 67,
     olxId: "945424881",
     name: "BMW 520i G30 AT 2018 KM RENDAH GREY / MODEL THN 2019 [BINTANG MOTOR]",
     brand: "BMW",
@@ -2529,7 +2457,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 70,
+    id: 68,
     olxId: "945416485",
     name: "FORTUNER TRD BENSIN AT 2014 BLACK / MODEL THN 2015 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -2566,7 +2494,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 71,
+    id: 69,
     olxId: "945416201",
     name: "ODYSSEY E 2.5 AT 2017 PRESTIGE PUTIH / MODEL THN 2018 [BINTANG MOTOR]",
     brand: "Honda",
@@ -2604,7 +2532,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 72,
+    id: 70,
     olxId: "945347089",
     name: "KM 50RB! AUDI TT COUPE AT 2007 ISTIMEWA / MDL THN 2008 [BINTANG MOTOR]",
     brand: "Audi",
@@ -2640,7 +2568,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 73,
+    id: 71,
     olxId: "945347004",
     name: "MERCY C200 AVG 2016 KM RENDAH BLACK / MODEL THN 2017 [BINTANG MOTOR]",
     brand: "Mercedes-Benz",
@@ -2677,7 +2605,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 74,
+    id: 72,
     olxId: "945318281",
     name: "SANTA FE BENSIN AT 2014 PANORAMIC / MODEL THN 2015 [BINTANG MOTOR]",
     brand: "Hyundai",
@@ -2715,7 +2643,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 75,
+    id: 73,
     olxId: "945318120",
     name: "SERENA HWS AT 2019 KM RENDAH SILVER / MODEL THN 2020 [BINTANG MOTOR]",
     brand: "Nissan",
@@ -2752,7 +2680,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 76,
+    id: 74,
     olxId: "945305256",
     name: "JEEP CHEROKEE 2.4 AWD 2014 PANORAMIC / MODEL THN 2015 [BINTANG MOTOR]",
     brand: "Jeep",
@@ -2788,7 +2716,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 77,
+    id: 75,
     olxId: "945302937",
     name: "KM 31RB! PAJERO DAKAR ULTIMATE 2019 / MODEL THN 2020 [BINTANG MOTOR]",
     brand: "Mitsubishi",
@@ -2824,7 +2752,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 78,
+    id: 76,
     olxId: "945221219",
     name: "GRAND CARNIVAL PREMIER 2022 PUTIH / MODEL THN 2023 [BINTANG MOTOR]",
     brand: "Kia",
@@ -2863,7 +2791,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 79,
+    id: 77,
     olxId: "945220598",
     name: "H1 ROYALE BENSIN AT 2018 FACELIFT PUTIH / MDL THN 2019 [BINTANG MOTOR]",
     brand: "Hyundai",
