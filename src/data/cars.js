@@ -13,6 +13,42 @@ export const formatPrice = (price) => {
 export const cars = [
   {
     id: 1,
+    olxId: "947219032",
+    name: "HONDA CRV 2.4 AT 2008 BLACK / MODEL THN 2009 [BINTANG MOTOR]",
+    brand: "Honda",
+    model: "CR-V",
+    variant: "2.4 Bensin-AT",
+    year: 2008,
+    price: 89000000,
+    priceCash: "Rp 89.000.000",
+    priceCredit: null,
+    fuel: "Bensin",
+    transmission: "Automatic",
+    mileage: "145.000-150.000 km",
+    color: "Hitam",
+    body: "SUV",
+    location: "Bandung (Plat D)",
+    tax: "—",
+    description: "* Plat D (Bandung)\n* Pajak on s/d bln Nov 2026\n* Transmisi automatic\n* Kondisi terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    addedAt: "2026-08-04T09:14:20+07:00",
+    olxUrl: "https://www.olx.co.id/item/iid-947219032",
+    image: "/images/olx-947219032/photo-1.jpg",
+    images: [
+      "/images/olx-947219032/photo-1.jpg",
+      "/images/olx-947219032/photo-2.jpg",
+      "/images/olx-947219032/photo-3.jpg",
+      "/images/olx-947219032/photo-4.jpg",
+      "/images/olx-947219032/photo-5.jpg",
+      "/images/olx-947219032/photo-6.jpg",
+      "/images/olx-947219032/photo-7.jpg",
+      "/images/olx-947219032/photo-8.jpg",
+      "/images/olx-947219032/photo-9.jpg",
+      "/images/olx-947219032/photo-10.jpg"
+    ],
+    isFeatured: true
+  },
+  {
+    id: 2,
     olxId: "947080808",
     name: "HONDA HRV E CVT AT 2017 GREY / MODEL THN 2018 [BINTANG MOTOR]",
     brand: "Honda",
@@ -47,7 +83,7 @@ export const cars = [
     isFeatured: true
   },
   {
-    id: 2,
+    id: 3,
     olxId: "946997099",
     name: "TOYOTA ALPHARD 2.4 AT 2006 BLACK / MODEL THN 2007 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -84,7 +120,7 @@ export const cars = [
     isFeatured: true
   },
   {
-    id: 3,
+    id: 4,
     olxId: "946965230",
     name: "KM 69RB! PICANTO 1.2 AT 2013 GREY / MODEL THN 2014 [BINTANG MOTOR]",
     brand: "Kia",
@@ -117,10 +153,10 @@ export const cars = [
       "/images/olx-946965230/photo-9.jpg",
       "/images/olx-946965230/photo-10.jpg"
     ],
-    isFeatured: true
+    isFeatured: false
   },
   {
-    id: 4,
+    id: 5,
     olxId: "946897156",
     name: "KM 42RB! MAZDA CX3 GT 2018 SUNROOF RED /MODEL THN 2019 [BINTANG MOTOR]",
     brand: "Mazda",
@@ -157,7 +193,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 5,
+    id: 6,
     olxId: "946890154",
     name: "TOYOTA ALPHARD G 2019 PUTIH / MODEL THN 2020 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -193,7 +229,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 6,
+    id: 7,
     olxId: "946859931",
     name: "TOYOTA INNOVA G 2.0 AT 2005 KM RENDAH / MDL THN 2006 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -230,7 +266,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 7,
+    id: 8,
     olxId: "946812655",
     name: "HYUNDAI IONIC 5 2023 KM RENDAH LONG RANGE/MDL THN 2024 [BINTANG MOTOR]",
     brand: "Hyundai",
@@ -267,7 +303,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 8,
+    id: 9,
     olxId: "946772801",
     name: "KM 53RB! CX5 GT 2021 FACELIFT RED / MODEL THN 2022 [BINTANG MOTOR]",
     brand: "Mazda",
@@ -304,7 +340,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 9,
+    id: 10,
     olxId: "946762001",
     name: "KM 48RB ALPHARD 2.5 G 2018 PUTIH / MODEL THN 2019 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -341,7 +377,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 10,
+    id: 11,
     olxId: "946745551",
     name: "KM 41RB! NEW LIVINA VL AT 2020 PTH/MDL TH 2021/XPANDER [BINTANG MOTOR]",
     brand: "Nissan",
@@ -378,7 +414,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 11,
+    id: 12,
     olxId: "946640533",
     name: "AVANZA VELOZ 1.5 AT 2014 KM RENDAH / MODEL THN 2015 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -415,15 +451,15 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 12,
+    id: 13,
     olxId: "946605470",
     name: "PAJERO ULTIMATE AT 2019 BLACK BARCODE/MDL TH 2020/DAKAR[BINTANG MOTOR]",
     brand: "Mitsubishi",
     model: "Pajero Sport",
     variant: "2.4 Dakar 4x2 Ultimate Solar-AT",
     year: 2019,
-    price: 389000000,
-    priceCash: "Rp 389.000.000",
+    price: 379000000,
+    priceCash: "Rp 379.000.000",
     priceCredit: null,
     fuel: "Diesel",
     transmission: "Automatic",
@@ -431,8 +467,8 @@ export const cars = [
     color: "Hitam",
     body: null,
     location: "Bandung (Plat D)",
-    tax: "Nov 2026",
-    description: "PAJERO DAKAR ULTIMATE AT 2019 [BARCODE SOLAR]\nOTR cash : 408 jt nego\nOTR khusus kredit : 389 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Nov 2026\n* Kilometer rendah\n* Ada Barcode Solar\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi Toyota\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    tax: "—",
+    description: "PAJERO DAKAR ULTIMATE AT 2019 [BARCODE SOLAR]\nOTR cash : 398 jt nego\nOTR khusus kredit : 379 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on s/d bln Nov 2026\n* Kilometer rendah\n* Ada Barcode Solar\n* Buku service & manual book lengkap\n* Kunci ada 2\n* Service record bengkel resmi Toyota\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
     addedAt: "2026-07-08T15:48:10+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-946605470",
     image: "/images/olx-946605470/photo-1.jpg",
@@ -451,7 +487,7 @@ export const cars = [
     isFeatured: false
   },
   {
-    id: 13,
+    id: 14,
     olxId: "946603077",
     name: "NEW CAMRY 2.5 V AT 2020 BLACK / MODEL THN 2021 [BINTANG MOTOR]",
     brand: "Toyota",
@@ -483,43 +519,6 @@ export const cars = [
       "/images/olx-946603077/photo-8.jpg",
       "/images/olx-946603077/photo-9.jpg",
       "/images/olx-946603077/photo-10.jpg"
-    ],
-    isFeatured: false
-  },
-  {
-    id: 14,
-    olxId: "946524988",
-    name: "INNOVA G 2.0 BENSIN MT 2013 BARONG / MODEL THN 2014 [BINTANG MOTOR]",
-    brand: "Toyota",
-    model: "Kijang Innova",
-    variant: "2.0 New G Bensin-MT",
-    year: 2013,
-    price: 163000000,
-    priceCash: "Rp 163.000.000",
-    priceCredit: null,
-    fuel: "Bensin",
-    transmission: "Manual",
-    mileage: "130.000-135.000 km",
-    color: "Silver",
-    body: null,
-    location: "Bandung (Plat D)",
-    tax: "Juli 2027",
-    description: "OTR cash : 173 Jt nego\nOTR khusus credit : 163 Jt (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Pajak on bln Juli 2027\n* Thn 2013 model Grill dpn sdh barong\n* Kunci serep ada\n* Buku service & manual book lengkap\n* Transmisi manual\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
-    addedAt: "2026-07-05T09:06:21+07:00",
-    olxUrl: "https://www.olx.co.id/item/iid-946524988",
-    image: "/images/olx-946524988/photo-1.jpg",
-    images: [
-      "/images/olx-946524988/photo-1.jpg",
-      "/images/olx-946524988/photo-2.jpg",
-      "/images/olx-946524988/photo-3.jpg",
-      "/images/olx-946524988/photo-4.jpg",
-      "/images/olx-946524988/photo-5.jpg",
-      "/images/olx-946524988/photo-6.jpg",
-      "/images/olx-946524988/photo-7.jpg",
-      "/images/olx-946524988/photo-8.jpg",
-      "/images/olx-946524988/photo-9.jpg",
-      "/images/olx-946524988/photo-10.jpg",
-      "/images/olx-946524988/photo-11.jpg"
     ],
     isFeatured: false
   },
@@ -1201,8 +1200,8 @@ export const cars = [
     color: "Silver",
     body: null,
     location: "Bandung (Plat D)",
-    tax: "Maret 2027",
-    description: "PAJERO DAKAR ULTIMATE AT 2018 GREY [BARCODE SOLAR]\nOTR cash : 395 jt nego\nOTR khusus kredit : 379 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Kilometer rendah 40rb\n* Pajak on bln Maret 2027\n* Type Dakar Ultimate\n* Kunci ada 2\n* Service record bengkel resmi mitsubishi\n* Buku service & manual book lengkap\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
+    tax: "—",
+    description: "PAJERO DAKAR ULTIMATE AT 2018 GREY [BARCODE SOLAR]\nOTR cash : 395 jt nego\nOTR khusus kredit : 379 jt   (*min tenor 3 & 4 thn)\n\n* Plat D (Bandung)\n* Kilometer rendah 40rb\n* Pajak on s/d bln Maret 2027\n* Type Dakar Ultimate\n* Kunci ada 2\n* Service record bengkel resmi mitsubishi\n* Buku service & manual book lengkap\n* Transmisi automatic\n* Kondisi sangat terawat\n* Unit READY & bisa langsung dilihat ke showroom\n* Cash atau credit\n* Terima tukar tambah\n* Dokumen dijamin lengkap & asli\n*",
     addedAt: "2026-06-11T17:43:16+07:00",
     olxUrl: "https://www.olx.co.id/item/iid-945985884",
     image: "/images/olx-945985884/photo-1.jpg",
